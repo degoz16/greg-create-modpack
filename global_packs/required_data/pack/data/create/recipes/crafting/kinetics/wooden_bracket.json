@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "P": {
+      "tag": "minecraft:wooden_slabs"
+    },
+    "W": {
+      "tag": "forge:tools/saws"
+    },
+    "H": {
+      "tag": "forge:tools/hammers"
+    }
+  },
+  "pattern": [
+    "WPH",
+    " P "
+  ],
+  "result": {
+    "count": 4,
+    "item": "create:wooden_bracket"
+  },
+  "show_notification": true
+}

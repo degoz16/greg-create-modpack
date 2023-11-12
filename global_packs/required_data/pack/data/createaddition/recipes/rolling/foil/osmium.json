@@ -1,0 +1,11 @@
+
+{
+	"type":"createaddition:rolling",
+	"input": {
+      	"tag": "forge:plates/osmium"
+	},
+	"result": {
+		"item": "gtceu:osmium_foil",
+		"count": 2
+	}
+}

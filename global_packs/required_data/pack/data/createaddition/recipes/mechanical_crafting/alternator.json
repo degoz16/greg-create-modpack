@@ -1,0 +1,26 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+  	"ASA",
+  	"III",
+    "IRI",
+    "III"
+  ],
+  "key": {
+    "I": {
+      "tag": "forge:plates/steel"
+    },
+    "R": {
+      "item": "gtceu:mv_electric_motor"
+    },
+    "S": {
+      "item": "create:shaft"
+    },
+    "A": {
+      "item": "gtceu:copper_single_wire"
+    }
+  },
+  "result": {
+    "item": "createaddition:alternator"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "create:copper_casing"
+    },
+    "C": {
+      "tag": "forge:foils/rubber"
+    },
+    "I": {
+      "item": "create:super_glue"
+    },
+    "i": {
+      "tag": "forge:screws/steel"
+    },
+    "R": {
+      "item": "create:shaft"
+    },
+    "H": {
+      "tag": "forge:tools/hammers"
+    },
+    "S": {
+      "tag": "forge:tools/screwdrivers"
+    }
+  },
+  "pattern": [
+    "BRI",
+    "CCC",
+    "iHS"
+  ],
+  "result": {
+    "item": "create:hose_pulley"
+  },
+  "show_notification": true
+}

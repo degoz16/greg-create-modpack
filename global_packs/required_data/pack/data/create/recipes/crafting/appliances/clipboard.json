@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "o": {
+      "tag": "forge:rings"
+    },
+    "G": {
+      "tag": "forge:plates/wood"
+    },
+    "P": {
+      "item": "minecraft:paper"
+    }
+  },
+  "pattern": [
+    "ooo",
+    " P ",
+    " G "
+  ],
+  "result": {
+    "item": "create:clipboard"
+  },
+  "show_notification": true
+}

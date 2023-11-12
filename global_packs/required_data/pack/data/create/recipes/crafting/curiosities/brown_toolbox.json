@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "tag": "forge:rods/brass"
+    },
+    "L": {
+      "tag": "forge:leather"
+    },
+    "S": {
+      "tag": "forge:plates/gold"
+    },
+    "W": {
+      "tag": "forge:chests/wooden"
+    },
+    "H": {
+      "tag": "forge:tools/wrenches"
+    },
+    "i": {
+      "tag": "forge:screws/steel"
+    },
+    "s": {
+      "tag": "forge:tools/screwdrivers"
+    }
+  },
+  "pattern": [
+    "HCs",
+    "SWS",
+    "iLi"
+  ],
+  "result": {
+    "item": "create:brown_toolbox"
+  },
+  "show_notification": true
+}

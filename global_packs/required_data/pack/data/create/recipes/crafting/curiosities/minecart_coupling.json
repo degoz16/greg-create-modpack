@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "E": {
+      "tag": "forge:ingots/steel"
+    },
+    "O": {
+      "tag": "forge:rods/steel"
+    },
+    "F": {
+      "tag": "forge:tools/files"
+    },
+    "S": {
+      "tag": "forge:tools/screwdrivers"
+    }
+  },
+  "pattern": [
+    " FE",
+    "SO ",
+    "E  "
+  ],
+  "result": {
+    "item": "create:minecart_coupling"
+  },
+  "show_notification": true
+}

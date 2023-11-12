@@ -1,0 +1,61 @@
+
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:plates/enriched_naquadah"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "chance": 100.0,
+      "item": "gtceu:enriched_naquadah_double_plate"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "gtceu:enriched_naquadah_plate"
+        },
+        {
+          "item": "gtceu:enriched_naquadah_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:enriched_naquadah_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:enriched_naquadah_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:enriched_naquadah_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:enriched_naquadah_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:enriched_naquadah_plate"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "gtceu:enriched_naquadah_plate"
+  }
+}

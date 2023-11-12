@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "P": {
+      "tag": "forge:plates/iron"
+    },
+    "W": {
+      "tag": "forge:tools/wrenches"
+    },
+    "H": {
+      "tag": "forge:tools/hammers"
+    }
+  },
+  "pattern": [
+    "WPH",
+    "PPP"
+  ],
+  "result": {
+    "count": 4,
+    "item": "create:metal_bracket"
+  },
+  "show_notification": true
+}

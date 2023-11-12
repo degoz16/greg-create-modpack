@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "tag": "minecraft:wooden_slabs"
+    },
+    "C": {
+      "item": "create:brass_casing"
+    },
+    "I": {
+      "item": "create:shaft"
+    },
+    "o": {
+      "tag": "forge:slimeballs"
+    },
+    "P": {
+      "tag": "forge:plates/brass"
+    },
+    "H": {
+      "tag": "forge:tools/hammers"
+    },
+    "W": {
+      "tag": "forge:tools/wrenches"
+    },
+    "E": {
+      "item": "create:electron_tube"
+    }
+  },
+  "pattern": [
+    "oB ",
+    "PCW",
+    "HIE"
+  ],
+  "result": {
+    "item": "create:clockwork_bearing"
+  },
+  "show_notification": true
+}

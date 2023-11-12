@@ -1,0 +1,16 @@
+
+{
+    "type": "longsword",
+    "attributes": {
+        "two-handed": {
+            "armor_negation": 20,
+            "impact": 6.0,
+            "max_strikes": 20
+        }
+    },
+    "collider": {
+        "number": 3,
+        "center": [0.0, 0.0, -0.95],
+        "size": [0.7, 0.7, 3.9]
+    }
+}

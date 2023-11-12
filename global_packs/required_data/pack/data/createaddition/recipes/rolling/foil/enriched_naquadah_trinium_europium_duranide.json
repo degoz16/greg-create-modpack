@@ -1,0 +1,11 @@
+
+{
+	"type":"createaddition:rolling",
+	"input": {
+      	"tag": "forge:plates/enriched_naquadah_trinium_europium_duranide"
+	},
+	"result": {
+		"item": "gtceu:enriched_naquadah_trinium_europium_duranide_foil",
+		"count": 2
+	}
+}

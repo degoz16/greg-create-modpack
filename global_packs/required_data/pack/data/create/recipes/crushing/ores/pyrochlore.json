@@ -1,0 +1,21 @@
+
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "forge:raw_materials/pyrochlore"
+    }
+  ],
+  "processingTime": 400,
+  "results": [
+    {
+      "item": "gtceu:pyrochlore_crushed_ore",
+      "count": 1,
+      "chance": 1
+    },
+    {
+      "chance": 0.75,
+      "item": "create:experience_nugget"
+    }
+  ]
+}

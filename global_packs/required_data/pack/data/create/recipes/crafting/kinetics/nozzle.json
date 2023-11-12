@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "tag": "minecraft:wool_carpets"
+    },
+    "S": {
+      "tag": "forge:rods/steel"
+    },
+    "H": {
+      "tag": "forge:tools/hammers"
+    }
+  },
+  "pattern": [
+    "SCS",
+    "CHC",
+    "SCS"
+  ],
+  "result": {
+    "item": "create:nozzle"
+  },
+  "show_notification": true
+}

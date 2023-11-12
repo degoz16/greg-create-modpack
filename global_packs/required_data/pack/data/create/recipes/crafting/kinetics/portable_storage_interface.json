@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "create:andesite_casing"
+    },
+    "I": {
+      "item": "create:chute"
+    },
+    "P": {
+      "tag": "forge:plates/iron"
+    },
+    "i": {
+      "tag": "forge:screws/steel"
+    },
+    "H": {
+      "tag": "forge:tools/wrenches"
+    },
+    "S": {
+      "tag": "forge:tools/screwdrivers"
+    }
+  },
+  "pattern": [
+    "S H",
+    "PCP",
+    "iIi"
+  ],
+  "result": {
+    "item": "create:portable_storage_interface"
+  },
+  "show_notification": true
+}

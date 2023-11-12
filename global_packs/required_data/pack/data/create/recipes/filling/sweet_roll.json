@@ -1,0 +1,51 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "minecraft:bread"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "create:sweet_roll"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:bread"
+        },
+        {
+          "tag": "forge:dusts/sugar"
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:bread"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "minecraft:bread"
+        },
+        {
+          "amount": 250,
+          "fluidTag": "forge:milk",
+          "nbt": {}
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:bread"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "minecraft:bread"
+  }
+}

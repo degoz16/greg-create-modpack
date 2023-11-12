@@ -1,0 +1,61 @@
+
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:plates/molybdenum"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "chance": 100.0,
+      "item": "gtceu:molybdenum_double_plate"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "gtceu:molybdenum_plate"
+        },
+        {
+          "item": "gtceu:molybdenum_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:molybdenum_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:molybdenum_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:molybdenum_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:molybdenum_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:molybdenum_plate"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "gtceu:molybdenum_plate"
+  }
+}

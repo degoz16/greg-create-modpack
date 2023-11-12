@@ -1,0 +1,11 @@
+
+{
+	"type":"createaddition:rolling",
+	"input": {
+      	"tag": "forge:plates/tungsten_carbide"
+	},
+	"result": {
+		"item": "gtceu:tungsten_carbide_foil",
+		"count": 2
+	}
+}

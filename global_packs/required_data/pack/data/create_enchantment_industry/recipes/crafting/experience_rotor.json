@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "E",
+    "Z"
+  ],
+  "key": {
+    "Z": {
+      "tag": "forge:rotors/steel"
+    },
+    "E": {
+      "item": "create:experience_nugget"
+    }
+  },
+  "result": {
+    "item": "create_enchantment_industry:experience_rotor"
+  }
+}

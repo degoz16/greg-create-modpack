@@ -1,0 +1,36 @@
+
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:ingots/neodymium"
+  },
+  "loops": 2,
+  "results": [
+    {
+      "chance": 65.0,
+      "item": "gtceu:neodymium_plate"
+    },
+    {
+      "chance": 35.0,
+      "item": "gtceu:neodymium_crushed_ore"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:neodymium_ingot"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:neodymium_ingot"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "gtceu:neodymium_ingot"
+  }
+}

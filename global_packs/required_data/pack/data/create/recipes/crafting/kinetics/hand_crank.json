@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "tag": "forge:rods/iron"
+    },
+    "C": {
+      "tag": "minecraft:planks"
+    },
+    "H": {
+      "tag": "forge:tools/hammers"
+    },
+    "S": {
+      "tag": "forge:tools/saws"
+    }
+  },
+  "pattern": [
+    "CCC",
+    "SHA"
+  ],
+  "result": {
+    "item": "create:hand_crank"
+  },
+  "show_notification": true
+}

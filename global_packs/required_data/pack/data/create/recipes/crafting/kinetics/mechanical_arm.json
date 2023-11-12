@@ -1,0 +1,41 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "C": {
+      "item": "create:brass_casing"
+    },
+    "c": {
+      "item": "create:cogwheel"
+    },
+    "L": {
+      "tag": "forge:plates/brass"
+    },
+    "R": {
+      "tag": "forge:rods/brass"
+    },
+    "r": {
+      "tag": "forge:rods/steel"
+    },
+    "I": {
+      "item": "create:precision_mechanism"
+    },
+    "E": {
+      "item": "create:electron_tube"
+    },
+    "i": {
+      "tag": "forge:screws/steel"
+    }
+  },
+  "pattern": [
+    "LRLr",
+    "R r ",
+    "Liii",
+    "CLLi",
+    "cIEL"
+  ],
+  "result": {
+    "count": 1,
+    "item": "create:mechanical_arm"
+  }
+}

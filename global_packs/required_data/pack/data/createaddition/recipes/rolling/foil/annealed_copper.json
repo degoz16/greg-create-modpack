@@ -1,0 +1,11 @@
+
+{
+	"type":"createaddition:rolling",
+	"input": {
+      	"tag": "forge:plates/annealed_copper"
+	},
+	"result": {
+		"item": "gtceu:annealed_copper_foil",
+		"count": 2
+	}
+}

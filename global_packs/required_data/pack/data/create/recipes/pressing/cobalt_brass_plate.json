@@ -1,0 +1,36 @@
+
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:ingots/cobalt_brass"
+  },
+  "loops": 2,
+  "results": [
+    {
+      "chance": 65.0,
+      "item": "gtceu:cobalt_brass_plate"
+    },
+    {
+      "chance": 35.0,
+      "item": "gtceu:cobalt_brass_crushed_ore"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:cobalt_brass_ingot"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:cobalt_brass_ingot"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "gtceu:cobalt_brass_ingot"
+  }
+}

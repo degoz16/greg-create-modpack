@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "gtceu:copper_large_fluid_pipe"
+    },
+    "S": {
+      "tag": "forge:tools/hammers"
+    }
+  },
+  "pattern": [
+    "SC"
+  ],
+  "result": {
+    "count": 1,
+    "item": "create:fluid_pipe"
+  },
+  "show_notification": true
+}

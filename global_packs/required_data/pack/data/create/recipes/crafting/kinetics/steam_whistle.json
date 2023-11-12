@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "create:fluid_pipe"
+    },
+    "P": {
+      "tag": "forge:plates/brass"
+    },
+    "F": {
+      "tag": "forge:tools/files"
+    },
+    "H": {
+      "tag": "forge:tools/hammers"
+    }
+  },
+  "pattern": [
+    " P ",
+    "HPF",
+    " C "
+  ],
+  "result": {
+    "item": "create:steam_whistle"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "gtceu:zpm_transformer_1a"
+    }
+  ],
+  "result": {
+    "item": "gtceu:zpm_1a_energy_converter"
+  }
+}

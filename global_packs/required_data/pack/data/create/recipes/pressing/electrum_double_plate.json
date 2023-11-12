@@ -1,0 +1,61 @@
+
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:plates/electrum"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "chance": 100.0,
+      "item": "gtceu:electrum_double_plate"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "gtceu:electrum_plate"
+        },
+        {
+          "item": "gtceu:electrum_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:electrum_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:electrum_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:electrum_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:electrum_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:electrum_plate"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "gtceu:electrum_plate"
+  }
+}

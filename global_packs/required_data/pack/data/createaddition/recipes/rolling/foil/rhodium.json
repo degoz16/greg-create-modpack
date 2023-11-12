@@ -1,0 +1,11 @@
+
+{
+	"type":"createaddition:rolling",
+	"input": {
+      	"tag": "forge:plates/rhodium"
+	},
+	"result": {
+		"item": "gtceu:rhodium_foil",
+		"count": 2
+	}
+}

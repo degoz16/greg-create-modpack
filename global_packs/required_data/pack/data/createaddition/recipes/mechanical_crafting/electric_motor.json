@@ -1,0 +1,29 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+  	"ASA",
+  	"IBI",
+    "BRB",
+    "IBI"
+  ],
+  "key": {
+    "I": {
+      "tag": "forge:plates/steel"
+    },
+    "B": {
+      "tag": "forge:plates/brass"
+    },
+    "R": {
+      "item": "gtceu:mv_electric_motor"
+    },
+    "S": {
+      "item": "create:shaft"
+    },
+    "A": {
+      "item": "gtceu:copper_single_wire"
+    }
+  },
+  "result": {
+    "item": "createaddition:electric_motor"
+  }
+}

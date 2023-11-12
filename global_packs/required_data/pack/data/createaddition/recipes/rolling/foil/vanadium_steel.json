@@ -1,0 +1,11 @@
+
+{
+	"type":"createaddition:rolling",
+	"input": {
+      	"tag": "forge:plates/vanadium_steel"
+	},
+	"result": {
+		"item": "gtceu:vanadium_steel_foil",
+		"count": 2
+	}
+}

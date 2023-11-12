@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "tag": "forge:rods/brass"
+    },
+    "I": {
+      "tag": "createbigcannons:sheet_iron"
+    },
+    "H": {
+      "tag": "forge:tools/hammers"
+    },
+    "F": {
+      "tag": "forge:tools/files"
+    }
+  },
+  "pattern": [
+    "HBF",
+    "I I",
+    "III"
+  ],
+  "result": {
+    "item": "createbigcannons:autocannon_ammo_container"
+  },
+  "show_notification": true
+}

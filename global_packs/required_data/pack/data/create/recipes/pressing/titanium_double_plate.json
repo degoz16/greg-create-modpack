@@ -1,0 +1,61 @@
+
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:plates/titanium"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "chance": 100.0,
+      "item": "gtceu:titanium_double_plate"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "gtceu:titanium_plate"
+        },
+        {
+          "item": "gtceu:titanium_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:titanium_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:titanium_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:titanium_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:titanium_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:titanium_plate"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "gtceu:titanium_plate"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "tag": "forge:plates/iron"
+    },
+    "H": {
+      "tag": "forge:tools/hammers"
+    },
+    "W": {
+      "tag": "forge:tools/wrenches"
+    }
+  },
+  "pattern": [
+    "AWA",
+    "AHA",
+    "AAA"
+  ],
+  "result": {
+    "item": "create:basin"
+  },
+  "show_notification": true
+}

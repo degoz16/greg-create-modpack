@@ -1,0 +1,36 @@
+
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:ingots/americium"
+  },
+  "loops": 2,
+  "results": [
+    {
+      "chance": 65.0,
+      "item": "gtceu:americium_plate"
+    },
+    {
+      "chance": 35.0,
+      "item": "gtceu:americium_crushed_ore"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:americium_ingot"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:americium_ingot"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "gtceu:americium_ingot"
+  }
+}

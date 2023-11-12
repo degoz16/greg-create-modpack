@@ -1,0 +1,61 @@
+
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:plates/hssg"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "chance": 100.0,
+      "item": "gtceu:hssg_double_plate"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "gtceu:hssg_plate"
+        },
+        {
+          "item": "gtceu:hssg_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:hssg_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:hssg_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:hssg_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:hssg_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:hssg_plate"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "gtceu:hssg_plate"
+  }
+}

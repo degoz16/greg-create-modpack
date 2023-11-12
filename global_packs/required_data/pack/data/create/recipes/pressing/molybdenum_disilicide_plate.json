@@ -1,0 +1,36 @@
+
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:ingots/molybdenum_disilicide"
+  },
+  "loops": 2,
+  "results": [
+    {
+      "chance": 65.0,
+      "item": "gtceu:molybdenum_disilicide_plate"
+    },
+    {
+      "chance": 35.0,
+      "item": "gtceu:molybdenum_disilicide_crushed_ore"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:molybdenum_disilicide_ingot"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:molybdenum_disilicide_ingot"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "gtceu:molybdenum_disilicide_ingot"
+  }
+}

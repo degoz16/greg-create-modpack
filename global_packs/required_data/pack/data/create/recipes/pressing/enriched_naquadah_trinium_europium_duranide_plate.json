@@ -1,0 +1,36 @@
+
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:ingots/enriched_naquadah_trinium_europium_duranide"
+  },
+  "loops": 2,
+  "results": [
+    {
+      "chance": 65.0,
+      "item": "gtceu:enriched_naquadah_trinium_europium_duranide_plate"
+    },
+    {
+      "chance": 35.0,
+      "item": "gtceu:enriched_naquadah_trinium_europium_duranide_crushed_ore"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:enriched_naquadah_trinium_europium_duranide_ingot"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:enriched_naquadah_trinium_europium_duranide_ingot"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "gtceu:enriched_naquadah_trinium_europium_duranide_ingot"
+  }
+}

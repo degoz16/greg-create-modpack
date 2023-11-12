@@ -1,0 +1,61 @@
+
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:plates/rhodium"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "chance": 100.0,
+      "item": "gtceu:rhodium_double_plate"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "gtceu:rhodium_plate"
+        },
+        {
+          "item": "gtceu:rhodium_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:rhodium_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:rhodium_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:rhodium_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:rhodium_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:rhodium_plate"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "gtceu:rhodium_plate"
+  }
+}

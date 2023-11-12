@@ -1,0 +1,36 @@
+
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:ingots/tin_alloy"
+  },
+  "loops": 2,
+  "results": [
+    {
+      "chance": 65.0,
+      "item": "gtceu:tin_alloy_plate"
+    },
+    {
+      "chance": 35.0,
+      "item": "gtceu:tin_alloy_crushed_ore"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:tin_alloy_ingot"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:tin_alloy_ingot"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "gtceu:tin_alloy_ingot"
+  }
+}

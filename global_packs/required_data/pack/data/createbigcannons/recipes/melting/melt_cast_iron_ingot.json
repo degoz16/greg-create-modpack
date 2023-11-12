@@ -1,0 +1,16 @@
+{
+  "type": "createbigcannons:melting",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "tag": "forge:ingots/wrought_iron"
+    }
+  ],
+  "processingTime": 180,
+  "results": [
+    {
+      "amount": 90,
+      "fluid": "gtceu:wrought_iron"
+    }
+  ]
+}

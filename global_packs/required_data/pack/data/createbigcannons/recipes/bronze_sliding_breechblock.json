@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "tag": "forge:gears/steel"
+    },
+    "I": {
+      "tag": "forge:ingots/bronze"
+    },
+    "H": {
+      "tag": "forge:tools/saws"
+    }
+  },
+  "pattern": [
+    "HI ",
+    "CIC",
+    " I "
+  ],
+  "result": {
+    "item": "createbigcannons:bronze_sliding_breechblock"
+  },
+  "show_notification": true
+}

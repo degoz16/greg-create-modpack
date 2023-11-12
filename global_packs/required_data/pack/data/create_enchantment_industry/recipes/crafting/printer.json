@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "HAS",
+    " B ",
+    " C "
+  ],
+  "key": {
+    "A": {
+      "item": "create:spout"
+    },
+    "B": {
+      "tag": "forge:plates/brass"
+    },
+    "C": {
+      "tag": "forge:plates/rubber"
+    },
+    "H": {
+      "tag": "forge:tools/wrenches"
+    },
+    "S": {
+      "tag": "forge:tools/hammers"
+    }
+  },
+  "result": {
+    "item": "create_enchantment_industry:printer"
+  }
+}

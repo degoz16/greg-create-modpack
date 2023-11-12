@@ -1,0 +1,11 @@
+
+{
+	"type":"createaddition:rolling",
+	"input": {
+      	"tag": "forge:plates/molybdenum"
+	},
+	"result": {
+		"item": "gtceu:molybdenum_foil",
+		"count": 2
+	}
+}

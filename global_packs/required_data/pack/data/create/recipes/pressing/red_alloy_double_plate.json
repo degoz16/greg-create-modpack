@@ -1,0 +1,61 @@
+
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:plates/red_alloy"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "chance": 100.0,
+      "item": "gtceu:red_alloy_double_plate"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "gtceu:red_alloy_plate"
+        },
+        {
+          "item": "gtceu:red_alloy_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:red_alloy_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:red_alloy_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:red_alloy_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:red_alloy_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:red_alloy_plate"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "gtceu:red_alloy_plate"
+  }
+}

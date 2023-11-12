@@ -1,0 +1,28 @@
+{
+  "type": "create:mechanical_crafting",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "create:brass_casing"
+    },
+    "B": {
+      "item": "create:electron_tube"
+    },
+    "W": {
+      "item": "create:cogwheel"
+    },
+    "P": {
+      "tag": "forge:plates/brass"
+    }
+  },
+  "pattern": [
+    "PCBCP",
+    "PWCWP",
+    "PBPBP"
+  ],
+  "result": {
+    "count": 3,
+    "item": "create:mechanical_crafter"
+  },
+  "show_notification": true
+}

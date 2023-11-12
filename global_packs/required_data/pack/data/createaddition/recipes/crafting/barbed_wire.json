@@ -1,0 +1,23 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[" P ",
+	 "SSS",
+	 "SSS"],
+	"key":
+	{
+		"P":
+		{
+			"tag": "forge:tools/wire_cutters"
+		},
+		"S":
+		{
+			"tag": "forge:wires/fine/steel"
+		}
+	},
+	"result":{
+		"item": "createaddition:barbed_wire",
+		"count": 8
+	}
+}

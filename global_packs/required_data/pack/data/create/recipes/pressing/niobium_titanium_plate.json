@@ -1,0 +1,36 @@
+
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:ingots/niobium_titanium"
+  },
+  "loops": 2,
+  "results": [
+    {
+      "chance": 65.0,
+      "item": "gtceu:niobium_titanium_plate"
+    },
+    {
+      "chance": 35.0,
+      "item": "gtceu:niobium_titanium_crushed_ore"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:niobium_titanium_ingot"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:niobium_titanium_ingot"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "gtceu:niobium_titanium_ingot"
+  }
+}

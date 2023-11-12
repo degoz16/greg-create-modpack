@@ -1,0 +1,61 @@
+
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:plates/ruthenium"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "chance": 100.0,
+      "item": "gtceu:ruthenium_double_plate"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "gtceu:ruthenium_plate"
+        },
+        {
+          "item": "gtceu:ruthenium_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:ruthenium_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:ruthenium_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:ruthenium_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:ruthenium_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:ruthenium_plate"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "gtceu:ruthenium_plate"
+  }
+}

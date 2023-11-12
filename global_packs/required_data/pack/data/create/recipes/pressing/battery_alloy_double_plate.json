@@ -1,0 +1,61 @@
+
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:plates/battery_alloy"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "chance": 100.0,
+      "item": "gtceu:battery_alloy_double_plate"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "gtceu:battery_alloy_plate"
+        },
+        {
+          "item": "gtceu:battery_alloy_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:battery_alloy_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:battery_alloy_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:battery_alloy_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:battery_alloy_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:battery_alloy_plate"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "gtceu:battery_alloy_plate"
+  }
+}

@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern":
+    [
+        "HBB",
+        "SAB",
+        "SF "
+    ],
+    "key":
+    {
+        "B": { "tag" : "forge:plates/diamond" },
+		"S": { "item" : "minecraft:stick" },
+		"A": { "item" : "gtceu:diamond_axe" },
+        "H": { "tag" : "forge:tools/hammers" },
+        "F": { "tag" : "forge:tools/files" }
+    },
+    "result":
+    {
+        "item" : "wom:diamond_greataxe",
+        "count" : 1
+    }
+}

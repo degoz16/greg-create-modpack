@@ -1,0 +1,11 @@
+
+{
+	"type":"createaddition:rolling",
+	"input": {
+      	"tag": "forge:plates/ruthenium"
+	},
+	"result": {
+		"item": "gtceu:ruthenium_foil",
+		"count": 2
+	}
+}

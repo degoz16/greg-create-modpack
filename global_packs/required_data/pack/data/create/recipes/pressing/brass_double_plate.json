@@ -1,0 +1,61 @@
+
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:plates/brass"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "chance": 100.0,
+      "item": "gtceu:brass_double_plate"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "gtceu:brass_plate"
+        },
+        {
+          "item": "gtceu:brass_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:brass_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:brass_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:brass_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:brass_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:brass_plate"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "gtceu:brass_plate"
+  }
+}

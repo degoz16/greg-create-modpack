@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "tag": "forge:plates/iron"
+    },
+    "K": {
+      "tag": "forge:foils/rubber"
+    },
+    "S": {
+      "tag": "forge:screws/steel"
+    },
+    "W": {
+      "tag": "forge:tools/wrenches"
+    },
+    "s": {
+      "tag": "forge:tools/screwdrivers"
+    }
+  },
+  "pattern": [
+    "A A",
+    "SKS",
+    "s W"
+  ],
+  "result": {
+    "count": 2,
+    "item": "create:andesite_funnel"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:iron_bars"
+    },
+    "C": {
+      "tag": "forge:gems/flawed/nether_quartz"
+    },
+    "I": {
+      "tag": "forge:plates/iron"
+    },
+    "i": {
+      "tag": "forge:tools/hammers"
+    },
+    "c": {
+      "tag": "forge:tools/wire_cutters"
+    },
+    "R": {
+      "tag": "createbigcannons:dusts_redstone"
+    }
+  },
+  "pattern": [
+    " A ",
+    "RCR",
+    "iIc"
+  ],
+  "result": {
+    "count": 4,
+    "item": "createbigcannons:proximity_fuze"
+  },
+  "show_notification": true
+}

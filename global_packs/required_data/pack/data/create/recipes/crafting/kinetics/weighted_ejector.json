@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "tag": "forge:plates/iron"
+    },
+    "E": {
+      "item": "create:depot"
+    },
+    "H": {
+      "tag": "forge:tools/hammers"
+    },
+    "W": {
+      "tag": "forge:tools/wrenches"
+    },
+    "S": {
+      "tag": "forge:springs/steel"
+    },
+    "I": {
+      "item": "create:cogwheel"
+    }
+  },
+  "pattern": [
+    "H W",
+    "CCC",
+    "IES"
+  ],
+  "result": {
+    "count": 1,
+    "item": "create:weighted_ejector"
+  },
+  "show_notification": true
+}

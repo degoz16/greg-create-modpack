@@ -1,0 +1,11 @@
+
+{
+	"type":"createaddition:rolling",
+	"input": {
+      	"tag": "forge:plates/electrum"
+	},
+	"result": {
+		"item": "gtceu:electrum_foil",
+		"count": 2
+	}
+}

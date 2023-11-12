@@ -1,0 +1,61 @@
+
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:plates/annealed_copper"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "chance": 100.0,
+      "item": "gtceu:annealed_copper_double_plate"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "gtceu:annealed_copper_plate"
+        },
+        {
+          "item": "gtceu:annealed_copper_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:annealed_copper_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:annealed_copper_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:annealed_copper_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:annealed_copper_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:annealed_copper_plate"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "gtceu:annealed_copper_plate"
+  }
+}

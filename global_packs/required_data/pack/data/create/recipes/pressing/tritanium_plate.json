@@ -1,0 +1,36 @@
+
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:ingots/tritanium"
+  },
+  "loops": 2,
+  "results": [
+    {
+      "chance": 65.0,
+      "item": "gtceu:tritanium_plate"
+    },
+    {
+      "chance": 35.0,
+      "item": "gtceu:tritanium_crushed_ore"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:tritanium_ingot"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:tritanium_ingot"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "gtceu:tritanium_ingot"
+  }
+}

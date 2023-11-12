@@ -1,0 +1,18 @@
+{
+    "type": "agony",
+    "attributes": {
+        "two_hand":
+		{
+			"armor_negation":40.0,
+			"impact":1.2,
+			"max_strikes":4
+		},
+	    "damage_bonus": 7.0,
+        "max_strikes": 20
+    },
+    "collider": {
+        "number": 3,
+        "center": [0.0, 0.0, -0.95],
+        "size": [1.4, 1.4, 3.9]
+    }
+}

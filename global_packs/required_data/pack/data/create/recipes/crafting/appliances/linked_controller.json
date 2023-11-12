@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "P": {
+      "item": "create:redstone_link"
+    },
+    "S": {
+      "tag": "minecraft:wooden_buttons"
+    },
+    "h": {
+      "tag": "forge:tools/screwdrivers"
+    },
+    "s": {
+      "tag": "forge:screws/steel"
+    }
+  },
+  "pattern": [
+    "SSh",
+    "SSS",
+    "sPs"
+  ],
+  "result": {
+    "item": "create:linked_controller"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,61 @@
+
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:plates/cupronickel"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "chance": 100.0,
+      "item": "gtceu:cupronickel_double_plate"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "gtceu:cupronickel_plate"
+        },
+        {
+          "item": "gtceu:cupronickel_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:cupronickel_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:cupronickel_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:cupronickel_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:cupronickel_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:cupronickel_plate"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "gtceu:cupronickel_plate"
+  }
+}

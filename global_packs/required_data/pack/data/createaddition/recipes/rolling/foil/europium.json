@@ -1,0 +1,11 @@
+
+{
+	"type":"createaddition:rolling",
+	"input": {
+      	"tag": "forge:plates/europium"
+	},
+	"result": {
+		"item": "gtceu:europium_foil",
+		"count": 2
+	}
+}

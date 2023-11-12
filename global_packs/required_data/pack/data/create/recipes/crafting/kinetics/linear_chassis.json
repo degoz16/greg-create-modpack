@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "L": {
+      "tag": "minecraft:logs"
+    },
+    "P": {
+      "tag": "forge:plates/iron"
+    },
+    "H": {
+      "tag": "forge:tools/hammers"
+    }
+  },
+  "pattern": [
+    "HP ",
+    "LLL",
+    " P "
+  ],
+  "result": {
+    "count": 3,
+    "item": "create:linear_chassis"
+  },
+  "show_notification": true
+}

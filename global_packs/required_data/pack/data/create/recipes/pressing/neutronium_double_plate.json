@@ -1,0 +1,61 @@
+
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:plates/neutronium"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "chance": 100.0,
+      "item": "gtceu:neutronium_double_plate"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "gtceu:neutronium_plate"
+        },
+        {
+          "item": "gtceu:neutronium_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:neutronium_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:neutronium_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:neutronium_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:neutronium_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:neutronium_plate"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "gtceu:neutronium_plate"
+  }
+}

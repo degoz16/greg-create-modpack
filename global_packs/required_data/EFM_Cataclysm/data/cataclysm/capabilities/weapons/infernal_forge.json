@@ -1,0 +1,13 @@
+{
+	"attributes":
+	{
+		"common":
+		{
+			"armor_negation":20.0,
+			"impact":4.0,
+			"max_strikes":3,
+			"speed_bonus": 0.8
+		}
+	},
+	"type":"torment"
+}

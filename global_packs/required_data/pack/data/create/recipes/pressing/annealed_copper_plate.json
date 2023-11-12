@@ -1,0 +1,36 @@
+
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:ingots/annealed_copper"
+  },
+  "loops": 2,
+  "results": [
+    {
+      "chance": 65.0,
+      "item": "gtceu:annealed_copper_plate"
+    },
+    {
+      "chance": 35.0,
+      "item": "gtceu:annealed_copper_crushed_ore"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:annealed_copper_ingot"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:annealed_copper_ingot"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "gtceu:annealed_copper_ingot"
+  }
+}

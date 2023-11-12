@@ -1,0 +1,11 @@
+
+{
+	"type":"createaddition:rolling",
+	"input": {
+      	"tag": "forge:plates/hssg"
+	},
+	"result": {
+		"item": "gtceu:hssg_foil",
+		"count": 2
+	}
+}

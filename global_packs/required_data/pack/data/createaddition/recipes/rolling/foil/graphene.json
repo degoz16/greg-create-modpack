@@ -1,0 +1,11 @@
+
+{
+	"type":"createaddition:rolling",
+	"input": {
+      	"tag": "forge:plates/graphene"
+	},
+	"result": {
+		"item": "gtceu:graphene_foil",
+		"count": 2
+	}
+}

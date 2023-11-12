@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "create:fluid_pipe"
+    },
+    "I": {
+      "item": "create:shaft"
+    },
+    "H": {
+      "tag": "forge:tools/hammers"
+    },
+    "W": {
+      "tag": "forge:tools/wrenches"
+    },
+    "P": {
+      "tag": "forge:plates/iron"
+    }
+  },
+  "pattern": [
+    "CP",
+    "I ",
+    "HW"
+  ],
+  "result": {
+    "count": 1,
+    "item": "create:fluid_valve"
+  },
+  "show_notification": true
+}

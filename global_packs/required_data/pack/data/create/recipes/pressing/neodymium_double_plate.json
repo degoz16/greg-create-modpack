@@ -1,0 +1,61 @@
+
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:plates/neodymium"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "chance": 100.0,
+      "item": "gtceu:neodymium_double_plate"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "gtceu:neodymium_plate"
+        },
+        {
+          "item": "gtceu:neodymium_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:neodymium_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:neodymium_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:neodymium_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:neodymium_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:neodymium_plate"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "gtceu:neodymium_plate"
+  }
+}

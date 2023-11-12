@@ -1,0 +1,61 @@
+
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:plates/silicon"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "chance": 100.0,
+      "item": "gtceu:silicon_double_plate"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "gtceu:silicon_plate"
+        },
+        {
+          "item": "gtceu:silicon_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:silicon_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:silicon_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:silicon_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:silicon_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:silicon_plate"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "gtceu:silicon_plate"
+  }
+}

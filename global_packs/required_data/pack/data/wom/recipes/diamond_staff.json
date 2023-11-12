@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern":
+    [
+        "  S",
+        "HBF",
+        "S  "
+    ],
+    
+    "key":
+    {
+        "B": { "item" : "minecraft:stick" },
+        "S": { "item" : "minecraft:diamond" },
+        "H": { "tag" : "forge:tools/hammers" },
+        "F": { "tag" : "forge:tools/files" }
+    },
+    
+    "result":
+    {
+        "item" : "wom:diamond_staff",
+        "count" : 1
+    }
+}

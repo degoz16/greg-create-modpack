@@ -1,0 +1,61 @@
+
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:plates/graphene"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "chance": 100.0,
+      "item": "gtceu:graphene_double_plate"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "gtceu:graphene_plate"
+        },
+        {
+          "item": "gtceu:graphene_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:graphene_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:graphene_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:graphene_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:graphene_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:graphene_plate"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "gtceu:graphene_plate"
+  }
+}

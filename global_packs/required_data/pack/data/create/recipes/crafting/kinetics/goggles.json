@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": {
+      "tag": "forge:lenses/glass"
+    },
+    "P": {
+      "tag": "forge:plates/gold"
+    },
+    "R": {
+      "tag": "forge:rods/gold"
+    },
+    "S": {
+      "tag": "forge:foils/rubber"
+    },
+    "T": {
+      "tag": "forge:tools/wire_cutters"
+    }
+  },
+  "pattern": [
+    " T ",
+    "RSR",
+    "GPG"
+  ],
+  "result": {
+    "item": "create:goggles"
+  },
+  "show_notification": true
+}

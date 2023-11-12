@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "create:andesite_casing"
+    },
+    "I": {
+      "item": "gtceu:steel_drill_head"
+    },
+    "p": {
+      "item": "create:shaft"
+    },
+    "P": {
+      "tag": "forge:plates/iron"
+    },
+    "i": {
+      "tag": "forge:screws/steel"
+    },
+    "H": {
+      "tag": "forge:tools/wrenches"
+    },
+    "S": {
+      "tag": "forge:tools/screwdrivers"
+    }
+  },
+  "pattern": [
+    "SpH",
+    "PCP",
+    "iIi"
+  ],
+  "result": {
+    "item": "create:mechanical_drill"
+  },
+  "show_notification": true
+}

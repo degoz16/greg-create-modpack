@@ -1,0 +1,61 @@
+
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:plates/sterling_silver"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "chance": 100.0,
+      "item": "gtceu:sterling_silver_double_plate"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "gtceu:sterling_silver_plate"
+        },
+        {
+          "item": "gtceu:sterling_silver_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:sterling_silver_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:sterling_silver_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:sterling_silver_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:sterling_silver_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:sterling_silver_plate"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "gtceu:sterling_silver_plate"
+  }
+}

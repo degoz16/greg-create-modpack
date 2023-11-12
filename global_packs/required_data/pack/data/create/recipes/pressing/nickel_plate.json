@@ -1,0 +1,36 @@
+
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:ingots/nickel"
+  },
+  "loops": 2,
+  "results": [
+    {
+      "chance": 65.0,
+      "item": "gtceu:nickel_plate"
+    },
+    {
+      "chance": 35.0,
+      "item": "gtceu:nickel_crushed_ore"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:nickel_ingot"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:nickel_ingot"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "gtceu:nickel_ingot"
+  }
+}

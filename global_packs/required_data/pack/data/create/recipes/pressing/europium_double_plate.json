@@ -1,0 +1,61 @@
+
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:plates/europium"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "chance": 100.0,
+      "item": "gtceu:europium_double_plate"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "gtceu:europium_plate"
+        },
+        {
+          "item": "gtceu:europium_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:europium_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:europium_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:europium_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:europium_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:europium_plate"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "gtceu:europium_plate"
+  }
+}

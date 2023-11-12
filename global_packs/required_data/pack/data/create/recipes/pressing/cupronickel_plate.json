@@ -1,0 +1,36 @@
+
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:ingots/cupronickel"
+  },
+  "loops": 2,
+  "results": [
+    {
+      "chance": 65.0,
+      "item": "gtceu:cupronickel_plate"
+    },
+    {
+      "chance": 35.0,
+      "item": "gtceu:cupronickel_crushed_ore"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:cupronickel_ingot"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:cupronickel_ingot"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "gtceu:cupronickel_ingot"
+  }
+}

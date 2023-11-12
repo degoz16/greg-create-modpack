@@ -1,0 +1,11 @@
+
+{
+	"type":"createaddition:rolling",
+	"input": {
+      	"tag": "forge:plates/americium"
+	},
+	"result": {
+		"item": "gtceu:americium_foil",
+		"count": 2
+	}
+}

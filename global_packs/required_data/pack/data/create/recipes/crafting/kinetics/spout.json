@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "create:copper_casing"
+    },
+    "I": {
+      "tag": "forge:foils/rubber"
+    },
+    "p": {
+      "item": "create:fluid_tank"
+    },
+    "P": {
+      "tag": "forge:plates/copper"
+    },
+    "i": {
+      "item": "create:super_glue"
+    },
+    "H": {
+      "tag": "forge:tools/wrenches"
+    },
+    "S": {
+      "tag": "forge:tools/hammers"
+    }
+  },
+  "pattern": [
+    "SpH",
+    "PCP",
+    "iI "
+  ],
+  "result": {
+    "item": "create:spout"
+  },
+  "show_notification": true
+}

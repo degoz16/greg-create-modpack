@@ -1,0 +1,61 @@
+
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:plates/tritanium"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "chance": 100.0,
+      "item": "gtceu:tritanium_double_plate"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "gtceu:tritanium_plate"
+        },
+        {
+          "item": "gtceu:tritanium_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:tritanium_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:tritanium_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:tritanium_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:tritanium_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:tritanium_plate"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "gtceu:tritanium_plate"
+  }
+}

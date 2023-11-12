@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "S": {
+      "tag": "forge:tools/files"
+    },
+    "H": {
+      "tag": "forge:tools/hammers"
+    },
+    "d": {
+      "tag": "forge:tools/screwdrivers"
+    },
+    "A": {
+      "tag": "forge:nuggets/brass"
+    },
+    "B": {
+      "tag": "forge:plates/steel"
+    },
+    "s": {
+      "tag": "forge:screws/steel"
+    },
+    "C": {
+      "tag": "forge:rods/brass"
+    }
+  },
+  "pattern": [
+    "SdH",
+    "CBC",
+    "AsA"
+  ],
+  "result": {
+    "item": "create:brass_hand"
+  },
+  "show_notification": true
+}

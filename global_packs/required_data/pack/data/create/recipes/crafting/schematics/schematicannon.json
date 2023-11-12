@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "minecraft:dispenser"
+    },
+    "I": {
+      "item": "createbigcannons:cast_iron_cannon_barrel"
+    },
+    "L": {
+      "tag": "forge:plates/treated_wood"
+    },
+    "p": {
+      "tag": "forge:plates/steel"
+    },
+    "s": {
+      "item": "create:shaft"
+    },
+    "S": {
+      "item": "create:turntable"
+    },
+    "H": {
+      "tag": "forge:tools/hammers"
+    },
+    "h": {
+      "tag": "forge:tools/wrenches"
+    }
+  },
+  "pattern": [
+    "HIh",
+    "LDL",
+    "pSs"
+  ],
+  "result": {
+    "item": "create:schematicannon"
+  },
+  "show_notification": true
+}

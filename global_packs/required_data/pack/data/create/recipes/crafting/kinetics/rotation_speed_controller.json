@@ -1,0 +1,26 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "B": {
+      "item": "create:precision_mechanism"
+    },
+    "C": {
+      "item": "create:brass_casing"
+    },
+    "i": {
+      "tag": "forge:screws/steel"
+    },
+    "L": {
+      "tag": "forge:plates/brass"
+    }
+  },
+  "pattern": [
+    "LBL",
+    "iCi"
+  ],
+  "result": {
+    "count": 1,
+    "item": "create:rotation_speed_controller"
+  }
+}

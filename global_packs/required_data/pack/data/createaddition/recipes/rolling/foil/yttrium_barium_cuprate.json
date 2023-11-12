@@ -1,0 +1,11 @@
+
+{
+	"type":"createaddition:rolling",
+	"input": {
+      	"tag": "forge:plates/yttrium_barium_cuprate"
+	},
+	"result": {
+		"item": "gtceu:yttrium_barium_cuprate_foil",
+		"count": 2
+	}
+}

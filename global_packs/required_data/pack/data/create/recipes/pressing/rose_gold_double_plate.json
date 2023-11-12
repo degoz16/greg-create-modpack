@@ -1,0 +1,61 @@
+
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:plates/rose_gold"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "chance": 100.0,
+      "item": "gtceu:rose_gold_double_plate"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "gtceu:rose_gold_plate"
+        },
+        {
+          "item": "gtceu:rose_gold_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:rose_gold_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:rose_gold_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:rose_gold_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:rose_gold_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:rose_gold_plate"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "gtceu:rose_gold_plate"
+  }
+}

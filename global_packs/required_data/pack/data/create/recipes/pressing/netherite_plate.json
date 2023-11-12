@@ -1,0 +1,35 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:ingots/netherite"
+  },
+  "loops": 2,
+  "results": [
+    {
+      "chance": 65.0,
+      "item": "gtceu:netherite_plate"
+    },
+    {
+      "chance": 35.0,
+      "item": "gtceu:debris_dust"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "minecraft:netherite_ingot"
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:netherite_ingot"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "minecraft:netherite_ingot"
+  }
+}

@@ -1,0 +1,61 @@
+
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:plates/americium"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "chance": 100.0,
+      "item": "gtceu:americium_double_plate"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "gtceu:americium_plate"
+        },
+        {
+          "item": "gtceu:americium_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:americium_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:americium_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:americium_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:americium_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:americium_plate"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "gtceu:americium_plate"
+  }
+}

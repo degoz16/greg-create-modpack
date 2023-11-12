@@ -1,0 +1,11 @@
+
+{
+	"type":"createaddition:rolling",
+	"input": {
+      	"tag": "forge:plates/tantalum"
+	},
+	"result": {
+		"item": "gtceu:tantalum_foil",
+		"count": 2
+	}
+}

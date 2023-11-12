@@ -1,0 +1,36 @@
+
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:ingots/yttrium_barium_cuprate"
+  },
+  "loops": 2,
+  "results": [
+    {
+      "chance": 65.0,
+      "item": "gtceu:yttrium_barium_cuprate_plate"
+    },
+    {
+      "chance": 35.0,
+      "item": "gtceu:yttrium_barium_cuprate_crushed_ore"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:yttrium_barium_cuprate_ingot"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:yttrium_barium_cuprate_ingot"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "gtceu:yttrium_barium_cuprate_ingot"
+  }
+}

@@ -1,0 +1,61 @@
+
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:plates/invar"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "chance": 100.0,
+      "item": "gtceu:invar_double_plate"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "gtceu:invar_plate"
+        },
+        {
+          "item": "gtceu:invar_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:invar_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:invar_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:invar_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:invar_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:invar_plate"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "gtceu:invar_plate"
+  }
+}

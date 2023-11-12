@@ -1,0 +1,11 @@
+
+{
+	"type":"createaddition:rolling",
+	"input": {
+      	"tag": "forge:plates/trinium"
+	},
+	"result": {
+		"item": "gtceu:trinium_foil",
+		"count": 2
+	}
+}

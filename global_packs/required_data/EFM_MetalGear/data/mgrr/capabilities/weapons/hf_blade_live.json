@@ -1,0 +1,22 @@
+{
+	"attributes":
+	{
+		"two_hand":
+		{
+			"armor_negation":40.0,
+			"impact":1.2,
+			"damage_bonus": 7.0,
+			"speed_bonus": 0.8,
+			"max_strikes":5
+		},
+		"liechtenauer":
+		{
+			"armor_negation":40.0,
+			"impact":1.0,
+			"damage_bonus": 7.0,
+			"speed_bonus": 17.4,
+			"max_strikes":3
+		}
+	},
+	"type":"uchigatana"
+}

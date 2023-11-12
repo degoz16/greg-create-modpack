@@ -1,0 +1,11 @@
+
+{
+	"type":"createaddition:rolling",
+	"input": {
+      	"tag": "forge:plates/lead"
+	},
+	"result": {
+		"item": "gtceu:lead_foil",
+		"count": 2
+	}
+}

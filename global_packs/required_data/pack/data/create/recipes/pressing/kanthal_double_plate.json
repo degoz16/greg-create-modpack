@@ -1,0 +1,61 @@
+
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:plates/kanthal"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "chance": 100.0,
+      "item": "gtceu:kanthal_double_plate"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "gtceu:kanthal_plate"
+        },
+        {
+          "item": "gtceu:kanthal_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:kanthal_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:kanthal_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:kanthal_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:kanthal_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:kanthal_plate"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "gtceu:kanthal_plate"
+  }
+}

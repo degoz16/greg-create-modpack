@@ -1,0 +1,50 @@
+
+#Format: [["dimension_1", temperature1], ["dimension_2", temperature2]... etc]
+#Common dimension IDs: minecraft:overworld, minecraft:the_nether, minecraft:the_end
+#Note: all temperatures are in Minecraft units
+#°F to MC = (x - 32) / 42
+#°C to MC = x / 23.3
+[Dimensions]
+	#Applies an offset to the world's temperature across an entire dimension
+	"Dimension Temperature Offsets" = [["minecraft:the_end", -0.1, "MC"], ["minecraft:the_nether", 1.0, "MC"]]
+	#Overrides existing dimension temperatures & offsets
+	#Also overrides temperatures of all biomes in the dimension
+	"Dimension Temperatures" = []
+
+#Format: [["biome_1", tempLow, tempHigh, *units], ["biome_2", tempLow, tempHigh, *units]... etc]
+#temp-low: The temperature of the biome at midnight
+#temp-high: The temperature of the biome at noon
+#units: Optional. The units of the temperature ("C" or "F". Defaults to MC units)
+#Note: all temperatures are in Minecraft units
+[Biomes]
+	#Applies an offset to the temperature of a biome (in Minecraft units).
+	"Biome Temperature Offsets" = []
+	#Defines the temperature of a biome, overriding existing biome temperatures & offsets (in Minecraft units).
+	"Biome Temperatures" = [["minecraft:plains", -40, -13, "C"], ["minecraft:sunflower_plains", -40, -13, "C"], ["minecraft:snowy_plains", -40, -20, "C"], ["minecraft:ice_spikes", -45, -25, "C"], ["minecraft:desert", -40, -13, "C"], ["minecraft:swamp", -40, -13, "C"], ["minecraft:mangrove_swamp", -40, -13, "C"], ["minecraft:forest", -40, -13, "C"], ["minecraft:flower_forest", -40, -13, "C"], ["minecraft:birch_forest", -40, -13, "C"], ["minecraft:dark_forest", -40, -13, "C"], ["minecraft:old_growth_birch_forest", -40, -13, "C"], ["minecraft:old_growth_pine_taiga", -40, -13, "C"], ["minecraft:old_growth_spruce_taiga", -40, -13, "C"], ["minecraft:taiga", -40, -13, "C"], ["minecraft:snowy_taiga", -40, -23, "C"], ["minecraft:savanna", -40, -13, "C"], ["minecraft:savanna_plateau", -40, -13, "C"], ["minecraft:windswept_hills", -40, -13, "C"], ["minecraft:windswept_gravelly_hills", -40, -13, "C"], ["minecraft:windswept_forest", -40, -13, "C"], ["minecraft:windswept_savanna", -40, -13, "C"], ["minecraft:jungle", -40, -13, "C"], ["minecraft:sparse_jungle", -40, -13, "C"], ["minecraft:bamboo_jungle", -40, -13, "C"], ["minecraft:badlands", -40, -13, "C"], ["minecraft:eroded_badlands", -40, -13, "C"], ["minecraft:wooded_badlands", -40, -13, "C"], ["minecraft:meadow", -40, -13, "C"], ["minecraft:cherry_grove", -40, -13, "C"], ["minecraft:grove", -40, -13, "C"], ["minecraft:snowy_slopes", -40, -13, "C"], ["minecraft:frozen_peaks", -40, -13, "C"], ["minecraft:jagged_peaks", -40, -13, "C"], ["minecraft:stony_peaks", -40, -13, "C"], ["minecraft:river", -40, -13, "C"], ["minecraft:frozen_river", -45, -31, "C"], ["minecraft:beach", -40, -13, "C"], ["minecraft:snowy_beach", -45, -31, "C"], ["minecraft:stony_shore", -40, -13, "C"], ["minecraft:warm_ocean", -45, -31, "C"], ["minecraft:lukewarm_ocean", -45, -31, "C"], ["minecraft:deep_lukewarm_ocean", -45, -31, "C"], ["minecraft:ocean", -45, -31, "C"], ["minecraft:deep_ocean", -45, -31, "C"], ["minecraft:cold_ocean", -45, -31, "C"], ["minecraft:deep_cold_ocean", -55, -31, "C"], ["minecraft:frozen_ocean", -55, -31, "C"], ["minecraft:deep_frozen_ocean", -55, -31, "C"], ["minecraft:mushroom_fields", -40, -13, "C"]]
+
+["Block Temperature"]
+	#Allows for adding simple BlockTemps without the use of Java mods
+	#Format (All temperatures are in Minecraft units):
+	#[["block-ids", <temperature>, <range (max 7)>, <*true/false: falloff>, <*max effect>, *<predicates>], [etc...], [etc...]]
+	#(* = optional) (1 °MC = 42 °F/ 23.33 °C)
+	#
+	#Arguments:
+	#block-ids: multiple IDs can be used by separating them with commas (i.e: "minecraft:torch,minecraft:wall_torch")
+	#temperature: the temperature of the block, in Minecraft units
+	#falloff: the block is less effective as distance increases
+	#max effect: the maximum temperature change this block can cause to a player (even with multiple blocks)
+	#predicates: the state that the block has to be in for the temperature to be applied (lit=true for a campfire, for example).
+	#Multiple predicates can be used by separating them with commas (i.e: "lit=true,waterlogged=false")
+	BlockTemps = [["minecraft:soul_fire", -0.476, 7, true, 0.8], ["minecraft:fire", 0.476, 7, true, 0.8], ["minecraft:magma_block", 0.5, 3, true, 0.6], ["minecraft:soul_campfire", -0.476, 3, true, 0.6, "lit=true"], ["minecraft:ice", -0.15, 4, true, 0.5], ["minecraft:packed_ice", -0.25, 4, true, 1.0], ["minecraft:blue_ice", -0.35, 4, true, 1.0]]
+	#The maximum range of blocks' area of effect
+	#Note: This will not change anything unless blocks are configured to utilize the expanded range
+	#This value is capped at 16 for performance reasons
+	#Range: 7 ~ 16
+	"Block Range" = 7
+
+[Misc]
+	#The amount of temperature normalization from being deep underground
+	#0.0 = no insulation, 1.0 = full insulation
+	#Range: 0.0 ~ 1.0
+	"Cave Insulation Strength" = 1.0
+

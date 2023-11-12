@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "tag": "forge:rods/brass"
+    },
+    "S": {
+      "tag": "minecraft:wool_carpets"
+    }
+  },
+  "pattern": [
+    "ASA"
+  ],
+  "result": {
+    "item": "create:attribute_filter"
+  },
+  "show_notification": true
+}

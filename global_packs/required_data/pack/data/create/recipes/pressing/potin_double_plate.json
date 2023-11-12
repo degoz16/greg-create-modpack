@@ -1,0 +1,61 @@
+
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:plates/potin"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "chance": 100.0,
+      "item": "gtceu:potin_double_plate"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "gtceu:potin_plate"
+        },
+        {
+          "item": "gtceu:potin_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:potin_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:potin_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:potin_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:potin_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:potin_plate"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "gtceu:potin_plate"
+  }
+}

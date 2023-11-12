@@ -1,0 +1,36 @@
+
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:ingots/osmiridium"
+  },
+  "loops": 2,
+  "results": [
+    {
+      "chance": 65.0,
+      "item": "gtceu:osmiridium_plate"
+    },
+    {
+      "chance": 35.0,
+      "item": "gtceu:osmiridium_crushed_ore"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:osmiridium_ingot"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:osmiridium_ingot"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "gtceu:osmiridium_ingot"
+  }
+}

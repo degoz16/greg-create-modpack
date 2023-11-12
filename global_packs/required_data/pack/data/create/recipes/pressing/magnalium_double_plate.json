@@ -1,0 +1,61 @@
+
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:plates/magnalium"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "chance": 100.0,
+      "item": "gtceu:magnalium_double_plate"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "gtceu:magnalium_plate"
+        },
+        {
+          "item": "gtceu:magnalium_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:magnalium_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:magnalium_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:magnalium_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:magnalium_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:magnalium_plate"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "gtceu:magnalium_plate"
+  }
+}

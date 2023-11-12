@@ -1,0 +1,61 @@
+
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:plates/nichrome"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "chance": 100.0,
+      "item": "gtceu:nichrome_double_plate"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "gtceu:nichrome_plate"
+        },
+        {
+          "item": "gtceu:nichrome_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:nichrome_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:nichrome_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:nichrome_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:nichrome_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:nichrome_plate"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "gtceu:nichrome_plate"
+  }
+}

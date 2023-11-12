@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern":
+    [
+        "  B",
+        "HBF",
+        "S  "
+    ],
+    "key":
+    {
+        "B": { "tag" : "forge:plates/diamond" },
+        "S": { "item" : "gtceu:diamond_sword" },
+        "H": { "tag" : "forge:tools/hammers" },
+        "F": { "tag" : "forge:tools/files" }
+    },
+    "result":
+    {
+        "item" : "epicfight:diamond_longsword",
+        "count" : 1
+    }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "createbigcannons:cannon_casting",
+  "cast_shape": "createbigcannons:very_small",
+  "casting_time": 1200,
+  "fluid": {
+    "amount": 1,
+    "fluid": "gtceu:bronze"
+  },
+  "result": "createbigcannons:unbored_bronze_cannon_barrel"
+}

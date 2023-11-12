@@ -1,0 +1,61 @@
+
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:plates/wrought_iron"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "chance": 100.0,
+      "item": "gtceu:wrought_iron_double_plate"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "gtceu:wrought_iron_plate"
+        },
+        {
+          "item": "gtceu:wrought_iron_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:wrought_iron_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:wrought_iron_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:wrought_iron_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:wrought_iron_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:wrought_iron_plate"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "gtceu:wrought_iron_plate"
+  }
+}

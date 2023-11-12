@@ -1,0 +1,26 @@
+{
+  "type": "create:mechanical_crafting",
+  "category": "misc",
+  "key": {
+    "A": {
+      "tag": "forge:nuggets/brass"
+    },
+    "B": {
+      "tag": "forge:plates/steel"
+    },
+    "s": {
+      "tag": "forge:screws/steel"
+    },
+    "C": {
+      "tag": "forge:rods/brass"
+    }
+  },
+  "pattern": [
+    "CBC",
+    "AsA"
+  ],
+  "result": {
+    "item": "create:brass_hand"
+  },
+  "show_notification": true
+}

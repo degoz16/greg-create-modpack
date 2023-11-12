@@ -1,0 +1,11 @@
+
+{
+	"type":"createaddition:rolling",
+	"input": {
+      	"tag": "forge:plates/uranium_rhodium_dinaquadide"
+	},
+	"result": {
+		"item": "gtceu:uranium_rhodium_dinaquadide_foil",
+		"count": 2
+	}
+}

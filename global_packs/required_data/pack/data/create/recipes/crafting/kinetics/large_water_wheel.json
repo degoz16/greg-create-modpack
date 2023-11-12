@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "create:shaft"
+    },
+    "S": {
+      "tag": "forge:treated_wood"
+    },
+    "s": {
+      "tag": "forge:tools/saws"
+    },
+    "h": {
+      "tag": "forge:tools/hammers"
+    }
+  },
+  "pattern": [
+    "hSs",
+    "SCS",
+    "SSS"
+  ],
+  "result": {
+    "item": "create:large_water_wheel"
+  },
+  "show_notification": true
+}

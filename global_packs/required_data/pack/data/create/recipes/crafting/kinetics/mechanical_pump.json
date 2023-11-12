@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "create:fluid_pipe"
+    },
+    "E": {
+      "item": "gtceu:primitive_pump"
+    },
+    "S": {
+      "tag": "forge:tools/screwdrivers"
+    },
+    "s": {
+      "tag": "forge:screws/steel"
+    },
+    "W": {
+      "tag": "forge:tools/wrenches"
+    },
+    "P": {
+      "tag": "forge:plates/brass"
+    },
+    "c": {
+      "item": "create:cogwheel"
+    }
+  },
+  "pattern": [
+    "sEs",
+    "PCP",
+    "WcS"
+  ],
+  "result": {
+    "count": 1,
+    "item": "create:mechanical_pump"
+  },
+  "show_notification": true
+}

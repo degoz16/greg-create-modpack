@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern":
+    [
+        "  B",
+        "HSF",
+        "S  "
+    ],
+    
+    "key":
+    {
+        "B": { "item" : "gtceu:golden_sword" },
+        "S": { "item" : "minecraft:stick" },
+        "H": { "tag" : "forge:tools/hammers" },
+        "F": { "tag" : "forge:tools/files" }
+    },
+    
+    "result":
+    {
+        "item" : "epicfight:golden_spear",
+        "count" : 1
+    }
+}

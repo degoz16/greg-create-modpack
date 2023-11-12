@@ -1,0 +1,36 @@
+
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:ingots/kanthal"
+  },
+  "loops": 2,
+  "results": [
+    {
+      "chance": 65.0,
+      "item": "gtceu:kanthal_plate"
+    },
+    {
+      "chance": 35.0,
+      "item": "gtceu:kanthal_crushed_ore"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:kanthal_ingot"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:kanthal_ingot"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "gtceu:kanthal_ingot"
+  }
+}

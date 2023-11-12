@@ -1,0 +1,11 @@
+
+{
+	"type":"createaddition:rolling",
+	"input": {
+      	"tag": "forge:plates/naquadah_alloy"
+	},
+	"result": {
+		"item": "gtceu:naquadah_alloy_foil",
+		"count": 2
+	}
+}

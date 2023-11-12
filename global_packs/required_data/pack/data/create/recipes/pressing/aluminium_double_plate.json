@@ -1,0 +1,61 @@
+
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:plates/aluminium"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "chance": 100.0,
+      "item": "gtceu:aluminium_double_plate"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "gtceu:aluminium_plate"
+        },
+        {
+          "item": "gtceu:aluminium_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:aluminium_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:aluminium_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:aluminium_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:aluminium_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:aluminium_plate"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "gtceu:aluminium_plate"
+  }
+}

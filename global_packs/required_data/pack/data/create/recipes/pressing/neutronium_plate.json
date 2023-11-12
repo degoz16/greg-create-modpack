@@ -1,0 +1,36 @@
+
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:ingots/neutronium"
+  },
+  "loops": 2,
+  "results": [
+    {
+      "chance": 65.0,
+      "item": "gtceu:neutronium_plate"
+    },
+    {
+      "chance": 35.0,
+      "item": "gtceu:neutronium_crushed_ore"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:neutronium_ingot"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:neutronium_ingot"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "gtceu:neutronium_ingot"
+  }
+}

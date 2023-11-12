@@ -1,0 +1,61 @@
+
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:plates/silver"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "chance": 100.0,
+      "item": "gtceu:silver_double_plate"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "gtceu:silver_plate"
+        },
+        {
+          "item": "gtceu:silver_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:silver_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:silver_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:silver_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:silver_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:silver_plate"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "gtceu:silver_plate"
+  }
+}

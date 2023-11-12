@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern":
+    [
+        "HB",
+        "SF"
+    ],
+    "key":
+    {
+        "B": { "tag" : "forge:plates/iron" },
+        "S": { "item" : "minecraft:stick" },
+        "H": { "tag" : "forge:tools/hammers" },
+        "F": { "tag" : "forge:tools/files" }
+    },
+    "result":
+    {
+        "item" : "epicfight:iron_dagger",
+        "count" : 1
+    }
+}

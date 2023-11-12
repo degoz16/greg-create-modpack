@@ -1,0 +1,36 @@
+
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:ingots/stainless_steel"
+  },
+  "loops": 2,
+  "results": [
+    {
+      "chance": 65.0,
+      "item": "gtceu:stainless_steel_plate"
+    },
+    {
+      "chance": 35.0,
+      "item": "gtceu:stainless_steel_crushed_ore"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:stainless_steel_ingot"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:stainless_steel_ingot"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "gtceu:stainless_steel_ingot"
+  }
+}

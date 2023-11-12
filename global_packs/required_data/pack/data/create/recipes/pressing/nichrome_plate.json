@@ -1,0 +1,36 @@
+
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:ingots/nichrome"
+  },
+  "loops": 2,
+  "results": [
+    {
+      "chance": 65.0,
+      "item": "gtceu:nichrome_plate"
+    },
+    {
+      "chance": 35.0,
+      "item": "gtceu:nichrome_crushed_ore"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:nichrome_ingot"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:nichrome_ingot"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "gtceu:nichrome_ingot"
+  }
+}

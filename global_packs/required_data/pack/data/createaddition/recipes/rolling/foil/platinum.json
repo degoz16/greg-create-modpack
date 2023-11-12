@@ -1,0 +1,11 @@
+
+{
+	"type":"createaddition:rolling",
+	"input": {
+      	"tag": "forge:plates/platinum"
+	},
+	"result": {
+		"item": "gtceu:platinum_foil",
+		"count": 2
+	}
+}

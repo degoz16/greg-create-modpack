@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "create:copper_casing"
+    },
+    "p": {
+      "item": "create:fluid_tank"
+    },
+    "P": {
+      "tag": "forge:plates/copper"
+    },
+    "i": {
+      "item": "minecraft:iron_bars"
+    },
+    "H": {
+      "tag": "forge:tools/wrenches"
+    },
+    "S": {
+      "tag": "forge:tools/hammers"
+    }
+  },
+  "pattern": [
+    "SiH",
+    "PCP",
+    " p "
+  ],
+  "result": {
+    "item": "create:item_drain"
+  },
+  "show_notification": true
+}

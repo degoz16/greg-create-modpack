@@ -1,0 +1,61 @@
+
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:plates/gold"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "chance": 100.0,
+      "item": "gtceu:gold_double_plate"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:gold_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:gold_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "gtceu:gold_plate"
+        },
+        {
+          "item": "gtceu:gold_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:gold_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:gold_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:gold_plate"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "gtceu:gold_plate"
+  }
+}

@@ -1,0 +1,61 @@
+
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:plates/damascus_steel"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "chance": 100.0,
+      "item": "gtceu:damascus_steel_double_plate"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "gtceu:damascus_steel_plate"
+        },
+        {
+          "item": "gtceu:damascus_steel_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:damascus_steel_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:damascus_steel_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:damascus_steel_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:damascus_steel_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:damascus_steel_plate"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "gtceu:damascus_steel_plate"
+  }
+}

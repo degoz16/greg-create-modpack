@@ -1,0 +1,61 @@
+
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:plates/chromium"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "chance": 100.0,
+      "item": "gtceu:chromium_double_plate"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "gtceu:chromium_plate"
+        },
+        {
+          "item": "gtceu:chromium_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:chromium_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:chromium_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:chromium_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:chromium_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:chromium_plate"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "gtceu:chromium_plate"
+  }
+}

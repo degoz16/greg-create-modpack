@@ -1,0 +1,36 @@
+
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:ingots/vanadium_steel"
+  },
+  "loops": 2,
+  "results": [
+    {
+      "chance": 65.0,
+      "item": "gtceu:vanadium_steel_plate"
+    },
+    {
+      "chance": 35.0,
+      "item": "gtceu:vanadium_steel_crushed_ore"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:vanadium_steel_ingot"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:vanadium_steel_ingot"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "gtceu:vanadium_steel_ingot"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "create:fluid_pipe"
+    },
+    "P": {
+      "tag": "forge:plates/brass"
+    },
+    "S": {
+      "item": "create:shaft"
+    },
+    "c": {
+      "item": "gtceu:bronze_machine_casing"
+    },
+    "F": {
+      "tag": "forge:tools/files"
+    },
+    "H": {
+      "tag": "forge:tools/hammers"
+    },
+    "h": {
+      "tag": "forge:tools/screwdrivers"
+    },
+    "s": {
+      "tag": "forge:screws/steel"
+    }
+  },
+  "pattern": [
+    "hSc",
+    "HPF",
+    "sCs"
+  ],
+  "result": {
+    "item": "create:steam_engine"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "tag": "forge:ingots/iron"
+    },
+    "P": {
+      "tag": "forge:plates/iron"
+    },
+    "H": {
+      "tag": "forge:tools/hammers"
+    }
+  },
+  "pattern": [
+    " H ",
+    "PPP",
+    "CCC"
+  ],
+  "result": {
+    "count": 8,
+    "item": "create:metal_girder"
+  },
+  "show_notification": true
+}

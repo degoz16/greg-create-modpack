@@ -1,0 +1,36 @@
+
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:ingots/rhodium_plated_palladium"
+  },
+  "loops": 2,
+  "results": [
+    {
+      "chance": 65.0,
+      "item": "gtceu:rhodium_plated_palladium_plate"
+    },
+    {
+      "chance": 35.0,
+      "item": "gtceu:rhodium_plated_palladium_crushed_ore"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:rhodium_plated_palladium_ingot"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:rhodium_plated_palladium_ingot"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "gtceu:rhodium_plated_palladium_ingot"
+  }
+}

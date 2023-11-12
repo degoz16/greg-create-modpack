@@ -1,0 +1,11 @@
+
+{
+	"type":"createaddition:rolling",
+	"input": {
+      	"tag": "forge:plates/palladium"
+	},
+	"result": {
+		"item": "gtceu:palladium_foil",
+		"count": 2
+	}
+}

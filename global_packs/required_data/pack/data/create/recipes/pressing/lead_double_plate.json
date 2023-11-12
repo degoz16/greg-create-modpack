@@ -1,0 +1,61 @@
+
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:plates/lead"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "chance": 100.0,
+      "item": "gtceu:lead_double_plate"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "gtceu:lead_plate"
+        },
+        {
+          "item": "gtceu:lead_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:lead_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:lead_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:lead_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:lead_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:lead_plate"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "gtceu:lead_plate"
+  }
+}

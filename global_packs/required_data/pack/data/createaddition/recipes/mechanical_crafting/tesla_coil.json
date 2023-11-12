@@ -1,0 +1,32 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+  	" SSS ",
+    " SAS ",
+    "PCBCP",
+    "PPEPP"
+  ],
+  "key": {
+  	"A": {
+      "tag": "forge:rods/magnetic_steel"
+    },
+    "C": {
+      "item": "gtceu:mv_battery_hull"
+    },
+    "P": {
+      "tag": "forge:plates/brass"
+    },
+    "B": {
+      "item": "create:brass_casing"
+    },
+    "S": {
+      "tag": "forge:wires/fine/copper"
+    },
+    "E": {
+      "item": "create:electron_tube"
+    }
+  },
+  "result": {
+    "item": "createaddition:tesla_coil"
+  }
+}

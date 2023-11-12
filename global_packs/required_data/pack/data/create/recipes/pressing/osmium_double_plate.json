@@ -1,0 +1,61 @@
+
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:plates/osmium"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "chance": 100.0,
+      "item": "gtceu:osmium_double_plate"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "gtceu:osmium_plate"
+        },
+        {
+          "item": "gtceu:osmium_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:osmium_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:osmium_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:osmium_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:osmium_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:osmium_plate"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "gtceu:osmium_plate"
+  }
+}

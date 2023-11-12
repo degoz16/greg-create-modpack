@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "tag": "forge:nuggets/wrought_iron"
+    },
+    "I": {
+      "tag": "forge:tools/files"
+    }
+  },
+  "pattern": [
+    "C",
+    "I"
+  ],
+  "result": {
+    "count": 1,
+    "item": "createbigcannons:ap_autocannon_round"
+  },
+  "show_notification": true
+}

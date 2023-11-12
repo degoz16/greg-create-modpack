@@ -1,0 +1,11 @@
+
+{
+	"type":"createaddition:rolling",
+	"input": {
+      	"tag": "forge:plates/tin"
+	},
+	"result": {
+		"item": "gtceu:tin_foil",
+		"count": 2
+	}
+}

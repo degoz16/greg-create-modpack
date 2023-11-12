@@ -1,0 +1,26 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "tag": "forge:ingots/brass"
+    },
+    "P": {
+      "tag": "forge:rods/iron"
+    },
+    "S": {
+      "item": "create:shaft"
+    }
+  },
+  "pattern": [
+    " AAA ",
+    "APPPA",
+    "APSPA",
+    "APPPA",
+    " AAA "
+  ],
+  "result": {
+    "count": 3,
+    "item": "create:flywheel"
+  }
+}

@@ -1,0 +1,61 @@
+
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:plates/naquadah"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "chance": 100.0,
+      "item": "gtceu:naquadah_double_plate"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "gtceu:naquadah_plate"
+        },
+        {
+          "item": "gtceu:naquadah_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:naquadah_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:naquadah_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:naquadah_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:naquadah_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:naquadah_plate"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "gtceu:naquadah_plate"
+  }
+}

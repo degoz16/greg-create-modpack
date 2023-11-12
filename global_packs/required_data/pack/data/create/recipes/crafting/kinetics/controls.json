@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:lever"
+    },
+    "C": {
+      "item": "create:railway_casing"
+    },
+    "I": {
+      "item": "create:precision_mechanism"
+    },
+    "P": {
+      "tag": "forge:plates/steel"
+    },
+    "S": {
+      "tag": "forge:tools/screwdrivers"
+    },
+    "W": {
+      "tag": "forge:tools/wrenches"
+    },
+    "i": {
+      "tag": "forge:screws/steel"
+    }
+  },
+  "pattern": [
+    "BPB",
+    "iCi",
+    "SIW"
+  ],
+  "result": {
+    "item": "create:controls"
+  },
+  "show_notification": true
+}

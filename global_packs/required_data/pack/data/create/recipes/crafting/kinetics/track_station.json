@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:compass"
+    },
+    "C": {
+      "item": "create:railway_casing"
+    },
+    "P": {
+      "tag": "forge:plates/steel"
+    },
+    "S": {
+      "tag": "forge:tools/screwdrivers"
+    },
+    "W": {
+      "tag": "forge:tools/wrenches"
+    },
+    "i": {
+      "tag": "forge:screws/steel"
+    }
+  },
+  "pattern": [
+    " B ",
+    "iCi",
+    "SPW"
+  ],
+  "result": {
+    "count": 2,
+    "item": "create:track_station"
+  },
+  "show_notification": true
+}

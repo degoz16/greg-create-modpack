@@ -1,0 +1,36 @@
+
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:ingots/red_steel"
+  },
+  "loops": 2,
+  "results": [
+    {
+      "chance": 65.0,
+      "item": "gtceu:red_steel_plate"
+    },
+    {
+      "chance": 35.0,
+      "item": "gtceu:red_steel_crushed_ore"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:red_steel_ingot"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:red_steel_ingot"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "gtceu:red_steel_ingot"
+  }
+}

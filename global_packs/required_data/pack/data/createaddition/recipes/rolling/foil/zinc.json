@@ -1,0 +1,11 @@
+
+{
+	"type":"createaddition:rolling",
+	"input": {
+      	"tag": "forge:plates/zinc"
+	},
+	"result": {
+		"item": "gtceu:zinc_foil",
+		"count": 2
+	}
+}

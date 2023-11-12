@@ -1,0 +1,61 @@
+
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:plates/bronze"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "chance": 100.0,
+      "item": "gtceu:bronze_double_plate"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "gtceu:bronze_plate"
+        },
+        {
+          "item": "gtceu:bronze_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:bronze_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:bronze_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:bronze_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:bronze_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:bronze_plate"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "gtceu:bronze_plate"
+  }
+}

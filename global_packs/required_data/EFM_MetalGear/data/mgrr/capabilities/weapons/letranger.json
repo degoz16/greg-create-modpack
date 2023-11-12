@@ -1,0 +1,13 @@
+{
+	"attributes":
+	{
+		"common":
+		{
+			"armor_negation":50.0,
+			"impact":5.4,
+			"damage_bonus": 8.0,
+			"max_strikes":7
+		}
+	},
+	"type":"staff"
+}

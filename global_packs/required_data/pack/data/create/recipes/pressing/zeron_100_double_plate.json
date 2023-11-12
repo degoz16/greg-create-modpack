@@ -1,0 +1,61 @@
+
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:plates/zeron_100"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "chance": 100.0,
+      "item": "gtceu:zeron_100_double_plate"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "gtceu:zeron_100_plate"
+        },
+        {
+          "item": "gtceu:zeron_100_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:zeron_100_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:zeron_100_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:zeron_100_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:zeron_100_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:zeron_100_plate"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "gtceu:zeron_100_plate"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "tag": "forge:plates/iron"
+    },
+    "I": {
+      "tag": "forge:tools/hammers"
+    }
+  },
+  "pattern": [
+    "A A",
+    "AIA",
+    "A A"
+  ],
+  "result": {
+    "count": 2,
+    "item": "create:chute"
+  },
+  "show_notification": true
+}

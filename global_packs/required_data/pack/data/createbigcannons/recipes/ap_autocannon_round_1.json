@@ -1,0 +1,13 @@
+{
+  "type": "create:sandpaper_polishing",
+  "ingredients": [
+    {
+      "tag": "forge:nuggets/wrought_iron"
+    }
+  ],
+  "results": [
+    {
+      "item": "createbigcannons:ap_autocannon_round"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "type": "create:mechanical_crafting",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "create:brass_casing"
+    },
+    "B": {
+      "item": "create:electron_tube"
+    },
+    "W": {
+      "item": "create:cogwheel"
+    },
+    "P": {
+      "tag": "forge:plates/brass"
+    },
+    "I": {
+      "item": "minecraft:comparator"
+    }
+  },
+  "pattern": [
+    "PCBCP",
+    "PWIWP",
+    "PBPBP"
+  ],
+  "result": {
+    "item": "create:stockpile_switch"
+  },
+  "show_notification": true
+}

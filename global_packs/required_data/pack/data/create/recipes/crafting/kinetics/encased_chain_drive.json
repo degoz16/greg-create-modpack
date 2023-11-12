@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "create:gearbox"
+    },
+    "H": {
+      "tag": "forge:tools/hammers"
+    },
+    "I": {
+      "item": "create:shaft"
+    },
+    "P": {
+      "tag": "forge:plates/iron"
+    },
+    "W": {
+      "tag": "forge:tools/wrenches"
+    }
+  },
+  "pattern": [
+    "HPI",
+    "AIA",
+    "WPI"
+  ],
+  "result": {
+    "count": 3,
+    "item": "create:encased_chain_drive"
+  },
+  "show_notification": true
+}

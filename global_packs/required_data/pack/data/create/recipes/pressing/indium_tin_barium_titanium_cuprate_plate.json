@@ -1,0 +1,36 @@
+
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:ingots/indium_tin_barium_titanium_cuprate"
+  },
+  "loops": 2,
+  "results": [
+    {
+      "chance": 65.0,
+      "item": "gtceu:indium_tin_barium_titanium_cuprate_plate"
+    },
+    {
+      "chance": 35.0,
+      "item": "gtceu:indium_tin_barium_titanium_cuprate_crushed_ore"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:indium_tin_barium_titanium_cuprate_ingot"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:indium_tin_barium_titanium_cuprate_ingot"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "gtceu:indium_tin_barium_titanium_cuprate_ingot"
+  }
+}

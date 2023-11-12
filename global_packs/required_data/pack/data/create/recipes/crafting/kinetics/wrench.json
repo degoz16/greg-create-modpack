@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": {
+      "tag": "forge:plates/gold"
+    },
+    "P": {
+      "item": "create:cogwheel"
+    },
+    "S": {
+      "tag": "forge:rods/wooden"
+    },
+    "H": {
+      "tag": "forge:tools/wrenches"
+    },
+    "h": {
+      "tag": "forge:tools/hammers"
+    }
+  },
+  "pattern": [
+    "GGH",
+    "GPh",
+    " S "
+  ],
+  "result": {
+    "item": "create:wrench"
+  },
+  "show_notification": true
+}

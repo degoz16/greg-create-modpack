@@ -1,0 +1,15 @@
+{
+	"type":"createaddition:liquid_burning",
+	"input": {
+      	"fluidTag": "gtceu:diesel",
+      	"amount": 1000
+	},
+	"burnTime": 48000,
+	"superheated": true,
+	"conditions": [
+	    {
+	        "fluidTag": "gtceu:diesel",
+	        "type": "createaddition:has_fluid_tag"
+	    }
+	]
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "create:andesite_casing"
+    },
+    "I": {
+      "tag": "forge:plates/iron"
+    },
+    "S": {
+      "item": "create:shaft"
+    },
+    "W": {
+      "tag": "forge:tools/wrenches"
+    }
+  },
+  "pattern": [
+    " S ",
+    "ICI",
+    " W "
+  ],
+  "result": {
+    "item": "createbigcannons:yaw_controller"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "gtceu:uv_transformer_2a"
+    }
+  ],
+  "result": {
+    "item": "gtceu:uv_4a_energy_converter"
+  }
+}

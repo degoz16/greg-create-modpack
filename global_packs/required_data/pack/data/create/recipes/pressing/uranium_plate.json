@@ -1,0 +1,36 @@
+
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:ingots/uranium"
+  },
+  "loops": 2,
+  "results": [
+    {
+      "chance": 65.0,
+      "item": "gtceu:uranium_plate"
+    },
+    {
+      "chance": 35.0,
+      "item": "gtceu:uranium_crushed_ore"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:uranium_ingot"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:uranium_ingot"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "gtceu:uranium_ingot"
+  }
+}

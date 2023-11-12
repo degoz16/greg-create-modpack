@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "S": {
+      "tag": "forge:tools/saws"
+    },
+    "K": {
+      "tag": "minecraft:wooden_buttons"
+    },
+    "L": {
+      "tag": "minecraft:logs"
+    }
+  },
+  "pattern": [
+    " K ",
+    "LLL",
+    " S "
+  ],
+  "result": {
+    "item": "createbigcannons:log_cannon_end"
+  },
+  "show_notification": true
+}

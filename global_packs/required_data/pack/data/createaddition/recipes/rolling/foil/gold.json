@@ -1,0 +1,11 @@
+
+{
+	"type":"createaddition:rolling",
+	"input": {
+      	"tag": "forge:plates/gold"
+	},
+	"result": {
+		"item": "gtceu:gold_foil",
+		"count": 2
+	}
+}

@@ -1,0 +1,61 @@
+
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:plates/vanadium_gallium"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "chance": 100.0,
+      "item": "gtceu:vanadium_gallium_double_plate"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "gtceu:vanadium_gallium_plate"
+        },
+        {
+          "item": "gtceu:vanadium_gallium_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:vanadium_gallium_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:vanadium_gallium_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:vanadium_gallium_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:vanadium_gallium_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:vanadium_gallium_plate"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "gtceu:vanadium_gallium_plate"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "create:sail_frame"
+    },
+    {
+      "tag": "minecraft:wool_carpets"
+    }
+  ],
+  "result": {
+    "item": "create:white_sail"
+  }
+}

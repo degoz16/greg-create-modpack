@@ -1,0 +1,20 @@
+{
+	"attributes":
+	{
+		"two_hand":
+		{
+			"armor_negation":50.0,
+			"impact":17.0,
+			"max_strikes":6,
+			"speed_bonus": 0.9
+		},
+		"liechtenauer":
+		{
+			"armor_negation":50.0,
+			"impact":40.0,
+			"max_strikes":10,
+			"speed_bonus": 0.9
+		}
+	},
+	"type":"longsword"
+}

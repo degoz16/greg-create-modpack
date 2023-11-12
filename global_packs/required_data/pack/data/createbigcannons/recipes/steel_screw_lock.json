@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "tag": "createbigcannons:ingot_steel"
+    },
+    "H": {
+      "tag": "forge:tools/hammers"
+    },
+    "S": {
+      "item": "create:shaft"
+    }
+  },
+  "pattern": [
+    "HS ",
+    "III"
+  ],
+  "result": {
+    "item": "createbigcannons:steel_screw_lock"
+  },
+  "show_notification": true
+}

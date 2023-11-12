@@ -1,0 +1,61 @@
+
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:plates/naquadria"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "chance": 100.0,
+      "item": "gtceu:naquadria_double_plate"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "gtceu:naquadria_plate"
+        },
+        {
+          "item": "gtceu:naquadria_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:naquadria_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:naquadria_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:naquadria_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:naquadria_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:naquadria_plate"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "gtceu:naquadria_plate"
+  }
+}

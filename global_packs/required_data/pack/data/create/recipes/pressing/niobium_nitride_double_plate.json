@@ -1,0 +1,61 @@
+
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:plates/niobium_nitride"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "chance": 100.0,
+      "item": "gtceu:niobium_nitride_double_plate"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "gtceu:niobium_nitride_plate"
+        },
+        {
+          "item": "gtceu:niobium_nitride_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:niobium_nitride_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:niobium_nitride_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:niobium_nitride_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:niobium_nitride_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:niobium_nitride_plate"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "gtceu:niobium_nitride_plate"
+  }
+}

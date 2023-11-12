@@ -1,0 +1,36 @@
+
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:ingots/platinum"
+  },
+  "loops": 2,
+  "results": [
+    {
+      "chance": 65.0,
+      "item": "gtceu:platinum_plate"
+    },
+    {
+      "chance": 35.0,
+      "item": "gtceu:platinum_crushed_ore"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:platinum_ingot"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:platinum_ingot"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "gtceu:platinum_ingot"
+  }
+}

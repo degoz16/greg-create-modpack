@@ -1,0 +1,14 @@
+{
+	"type":"createaddition:liquid_burning",
+	"input": {
+      	"fluid": "gtceu:oil_heavy",
+      	"amount": 1000
+	},
+	"burnTime": 9600,
+	"conditions": [
+	    {
+	        "fluidTag": "gtceu:oil_heavy",
+	        "type": "createaddition:has_fluid_tag"
+	    }
+  ]
+}

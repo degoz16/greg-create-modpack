@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "tag": "forge:plates/iron"
+    },
+    "B": {
+      "tag": "forge:rods/iron"
+    },
+    "C": {
+      "tag": "forge:tools/hammers"
+    }
+  },
+  "pattern": [
+    "A ",
+    "BC",
+    "A "
+  ],
+  "result": {
+    "count": 2,
+    "item": "create:shaft"
+  },
+  "show_notification": true
+}

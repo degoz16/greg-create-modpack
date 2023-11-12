@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "create:clutch"
+    },
+    "B": {
+      "item": "create:gearbox"
+    },
+    "E":{
+      "tag": "forge:plates/iron"
+    },
+    "H": {
+      "tag": "forge:tools/hammers"
+    },
+    "W": {
+      "tag": "forge:tools/wrenches"
+    }
+  },
+  "pattern": [
+    "EW",
+    "AB",
+    "EH"
+  ],
+  "result": {
+    "item": "create:gearshift"
+  }
+}

@@ -1,0 +1,36 @@
+
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:ingots/hastelloy_c_276"
+  },
+  "loops": 2,
+  "results": [
+    {
+      "chance": 65.0,
+      "item": "gtceu:hastelloy_c_276_plate"
+    },
+    {
+      "chance": 35.0,
+      "item": "gtceu:hastelloy_c_276_crushed_ore"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:hastelloy_c_276_ingot"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:hastelloy_c_276_ingot"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "gtceu:hastelloy_c_276_ingot"
+  }
+}

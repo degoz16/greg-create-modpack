@@ -1,0 +1,11 @@
+
+{
+	"type":"createaddition:rolling",
+	"input": {
+      	"tag": "forge:plates/gallium"
+	},
+	"result": {
+		"item": "gtceu:gallium_foil",
+		"count": 2
+	}
+}

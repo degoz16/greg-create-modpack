@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern":
+    [
+        "  S",
+        "FBH",
+        "S  "
+    ],
+    
+    "key":
+    {
+        "B": { "item" : "minecraft:stick" },
+        "S": { "item" : "minecraft:gold_ingot" },
+        "H": { "tag" : "forge:tools/hammers" },
+        "F": { "tag" : "forge:tools/files" }
+    },
+    
+    "result":
+    {
+        "item" : "wom:golden_staff",
+        "count" : 1
+    }
+}

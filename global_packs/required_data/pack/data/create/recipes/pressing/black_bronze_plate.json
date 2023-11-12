@@ -1,0 +1,36 @@
+
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:ingots/black_bronze"
+  },
+  "loops": 2,
+  "results": [
+    {
+      "chance": 65.0,
+      "item": "gtceu:black_bronze_plate"
+    },
+    {
+      "chance": 35.0,
+      "item": "gtceu:black_bronze_crushed_ore"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:black_bronze_ingot"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:black_bronze_ingot"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "gtceu:black_bronze_ingot"
+  }
+}

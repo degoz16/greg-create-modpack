@@ -1,0 +1,61 @@
+
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:plates/incoloy_ma_956"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "chance": 100.0,
+      "item": "gtceu:incoloy_ma_956_double_plate"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "gtceu:incoloy_ma_956_plate"
+        },
+        {
+          "item": "gtceu:incoloy_ma_956_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:incoloy_ma_956_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:incoloy_ma_956_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:incoloy_ma_956_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:incoloy_ma_956_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:incoloy_ma_956_plate"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "gtceu:incoloy_ma_956_plate"
+  }
+}

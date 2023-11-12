@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "tag": "forge:bolts/steel"
+    },
+    "s": {
+      "tag": "forge:tools/hammers"
+    },
+    "C": {
+      "tag": "forge:rods/treated_wood"
+    }
+  },
+  "pattern": [
+    "BCB",
+    "CsC",
+    "BCB"
+  ],
+  "result": {
+    "item": "create:sail_frame"
+  },
+  "show_notification": true
+}

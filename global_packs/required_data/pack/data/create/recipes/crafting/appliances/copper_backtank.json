@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "tag": "forge:plates/copper"
+    },
+    "H": {
+      "tag": "forge:tools/hammers"
+    },
+    "S": {
+      "item": "create:shaft"
+    }
+  },
+  "pattern": [
+    "HBB",
+    "BSB",
+    "BB "
+  ],
+  "result": {
+    "item": "create:copper_backtank"
+  },
+  "show_notification": true
+}

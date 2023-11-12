@@ -1,0 +1,11 @@
+
+{
+	"type":"createaddition:rolling",
+	"input": {
+      	"tag": "forge:plates/manganese"
+	},
+	"result": {
+		"item": "gtceu:manganese_foil",
+		"count": 2
+	}
+}

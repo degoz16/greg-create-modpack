@@ -1,0 +1,61 @@
+
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:plates/uranium_235"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "chance": 100.0,
+      "item": "gtceu:uranium_235_double_plate"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "gtceu:uranium_235_plate"
+        },
+        {
+          "item": "gtceu:uranium_235_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:uranium_235_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:uranium_235_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:uranium_235_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:uranium_235_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:uranium_235_plate"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "gtceu:uranium_235_plate"
+  }
+}

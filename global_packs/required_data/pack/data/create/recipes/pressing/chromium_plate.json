@@ -1,0 +1,36 @@
+
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:ingots/chromium"
+  },
+  "loops": 2,
+  "results": [
+    {
+      "chance": 65.0,
+      "item": "gtceu:chromium_plate"
+    },
+    {
+      "chance": 35.0,
+      "item": "gtceu:chromium_crushed_ore"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:chromium_ingot"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:chromium_ingot"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "gtceu:chromium_ingot"
+  }
+}

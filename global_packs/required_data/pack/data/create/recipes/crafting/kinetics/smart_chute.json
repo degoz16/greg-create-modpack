@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "create:chute"
+    },
+    "E": {
+      "item": "create:electron_tube"
+    },
+    "S": {
+      "tag": "forge:tools/screwdrivers"
+    },
+    "s": {
+      "tag": "forge:screws/steel"
+    },
+    "W": {
+      "tag": "forge:tools/wrenches"
+    },
+    "P": {
+      "tag": "forge:plates/steel"
+    }
+  },
+  "pattern": [
+    " P ",
+    "sCs",
+    "WES"
+  ],
+  "result": {
+    "count": 1,
+    "item": "create:smart_chute"
+  },
+  "show_notification": true
+}

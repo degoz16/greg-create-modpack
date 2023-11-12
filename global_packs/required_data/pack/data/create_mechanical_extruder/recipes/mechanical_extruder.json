@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "create:andesite_casing"
+    },
+    "p": {
+      "item": "create:mechanical_press"
+    },
+    "P": {
+      "tag": "forge:plates/iron"
+    },
+    "_": {
+      "item": "gtceu:steel_drum"
+    },
+    "i": {
+      "tag": "forge:screws/steel"
+    },
+    "H": {
+      "tag": "forge:tools/wrenches"
+    },
+    "S": {
+      "tag": "forge:tools/screwdrivers"
+    }
+  },
+  "pattern": [
+    "SpH",
+    "PCP",
+    "i_i"
+  ],
+  "result": {
+    "item": "create_mechanical_extruder:mechanical_extruder"
+  },
+  "show_notification": true
+}

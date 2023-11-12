@@ -1,0 +1,61 @@
+
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:plates/ruridit"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "chance": 100.0,
+      "item": "gtceu:ruridit_double_plate"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "gtceu:ruridit_plate"
+        },
+        {
+          "item": "gtceu:ruridit_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:ruridit_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:ruridit_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:ruridit_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:ruridit_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:ruridit_plate"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "gtceu:ruridit_plate"
+  }
+}

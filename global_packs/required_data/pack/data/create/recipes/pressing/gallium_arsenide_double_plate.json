@@ -1,0 +1,61 @@
+
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:plates/gallium_arsenide"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "chance": 100.0,
+      "item": "gtceu:gallium_arsenide_double_plate"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "gtceu:gallium_arsenide_plate"
+        },
+        {
+          "item": "gtceu:gallium_arsenide_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:gallium_arsenide_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:gallium_arsenide_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:gallium_arsenide_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:gallium_arsenide_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:gallium_arsenide_plate"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "gtceu:gallium_arsenide_plate"
+  }
+}

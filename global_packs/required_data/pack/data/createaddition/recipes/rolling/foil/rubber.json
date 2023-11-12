@@ -1,0 +1,11 @@
+
+{
+	"type":"createaddition:rolling",
+	"input": {
+      	"tag": "forge:plates/rubber"
+	},
+	"result": {
+		"item": "gtceu:rubber_foil",
+		"count": 2
+	}
+}

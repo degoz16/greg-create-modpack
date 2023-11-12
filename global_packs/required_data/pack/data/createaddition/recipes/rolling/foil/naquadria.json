@@ -1,0 +1,11 @@
+
+{
+	"type":"createaddition:rolling",
+	"input": {
+      	"tag": "forge:plates/naquadria"
+	},
+	"result": {
+		"item": "gtceu:naquadria_foil",
+		"count": 2
+	}
+}

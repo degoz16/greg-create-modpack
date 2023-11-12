@@ -1,0 +1,36 @@
+
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:ingots/aluminium"
+  },
+  "loops": 2,
+  "results": [
+    {
+      "chance": 65.0,
+      "item": "gtceu:aluminium_plate"
+    },
+    {
+      "chance": 35.0,
+      "item": "gtceu:aluminium_crushed_ore"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:aluminium_ingot"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:aluminium_ingot"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "gtceu:aluminium_ingot"
+  }
+}

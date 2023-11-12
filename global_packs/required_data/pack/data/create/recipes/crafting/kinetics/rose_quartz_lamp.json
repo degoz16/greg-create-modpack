@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "create:polished_rose_quartz"
+    },
+    "C": {
+      "tag": "forge:dusts/redstone"
+    },
+    "I": {
+      "tag": "forge:plates/iron"
+    },
+    "S": {
+      "tag": "forge:tools/screwdrivers"
+    },
+    "G": {
+      "tag": "forge:storage_blocks/glowstone"
+    }
+  },
+  "pattern": [
+    "SB ",
+    "IGI",
+    " C "
+  ],
+  "result": {
+    "item": "create:rose_quartz_lamp"
+  },
+  "show_notification": true
+}

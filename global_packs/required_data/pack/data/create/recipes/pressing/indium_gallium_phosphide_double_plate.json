@@ -1,0 +1,61 @@
+
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:plates/indium_gallium_phosphide"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "chance": 100.0,
+      "item": "gtceu:indium_gallium_phosphide_double_plate"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "gtceu:indium_gallium_phosphide_plate"
+        },
+        {
+          "item": "gtceu:indium_gallium_phosphide_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:indium_gallium_phosphide_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:indium_gallium_phosphide_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:indium_gallium_phosphide_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:indium_gallium_phosphide_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:indium_gallium_phosphide_plate"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "gtceu:indium_gallium_phosphide_plate"
+  }
+}

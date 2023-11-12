@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "forge:plates/brass"
+    },
+    {
+      "tag": "forge:tools/files"
+    }
+  ],
+  "result": {
+    "item": "create:crafter_slot_cover"
+  },
+  "show_notification": true
+}

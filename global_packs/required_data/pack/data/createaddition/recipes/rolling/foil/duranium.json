@@ -1,0 +1,11 @@
+
+{
+	"type":"createaddition:rolling",
+	"input": {
+      	"tag": "forge:plates/duranium"
+	},
+	"result": {
+		"item": "gtceu:duranium_foil",
+		"count": 2
+	}
+}

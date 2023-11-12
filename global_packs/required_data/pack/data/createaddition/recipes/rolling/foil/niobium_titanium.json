@@ -1,0 +1,11 @@
+
+{
+	"type":"createaddition:rolling",
+	"input": {
+      	"tag": "forge:plates/niobium_titanium"
+	},
+	"result": {
+		"item": "gtceu:niobium_titanium_foil",
+		"count": 2
+	}
+}

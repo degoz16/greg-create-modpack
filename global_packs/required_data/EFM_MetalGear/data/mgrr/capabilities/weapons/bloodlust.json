@@ -1,0 +1,20 @@
+{
+	"attributes":
+	{
+		"one_hand":
+		{
+			"armor_negation":40.0,
+			"impact":6.0,
+			"max_strikes":4,
+			"speed_bonus": 0.9
+		},
+		"two_hand":
+		{
+			"armor_negation":40.0,
+			"impact":6.0,
+			"max_strikes":4,
+			"speed_bonus": 0.9
+		}
+	},
+	"type":"sword"
+}

@@ -1,0 +1,61 @@
+
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:plates/beryllium"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "chance": 100.0,
+      "item": "gtceu:beryllium_double_plate"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "gtceu:beryllium_plate"
+        },
+        {
+          "item": "gtceu:beryllium_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:beryllium_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:beryllium_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:beryllium_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "gtceu:beryllium_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "gtceu:beryllium_plate"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "gtceu:beryllium_plate"
+  }
+}

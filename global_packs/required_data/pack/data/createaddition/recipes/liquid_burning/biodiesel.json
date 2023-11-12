@@ -1,0 +1,14 @@
+{
+	"type":"createaddition:liquid_burning",
+	"input": {
+      	"fluid": "gtceu:bio_disel",
+      	"amount": 1000
+	},
+	"burnTime": 9600,
+	"conditions": [
+	    {
+	        "fluidTag": "gtceu:bio_disel",
+	        "type": "createaddition:has_fluid_tag"
+	    }
+  ]
+}

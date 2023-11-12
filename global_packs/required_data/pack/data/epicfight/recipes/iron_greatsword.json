@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern":
+    [
+        "HBB",
+        "BBB",
+        "SBF"
+    ],
+    "key":
+    {
+        "B": { "tag" : "forge:plates/iron" },
+        "S": { "tag" : "minecraft:planks" },
+        "H": { "tag" : "forge:tools/hammers" },
+        "F": { "tag" : "forge:tools/files" }
+    },
+    "result":
+    {
+        "item" : "epicfight:iron_greatsword",
+        "count" : 1
+    }
+}
