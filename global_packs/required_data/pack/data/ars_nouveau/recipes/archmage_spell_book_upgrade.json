@@ -1,0 +1,39 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": true,
+  "output": {
+    "item": "ars_nouveau:archmage_spell_book"
+  },
+  "pedestalItems": [
+    {
+      "item": "minecraft:nether_star"
+    },
+    {
+      "item": "ars_nouveau:wilden_tribute"
+    },
+    {
+      "item": "minecraft:emerald"
+    },
+    {
+      "item": "minecraft:emerald"
+    },
+    {
+      "item": "minecraft:ender_pearl"
+    },
+    {
+      "item": "minecraft:ender_pearl"
+    },
+    {
+      "item": "minecraft:ender_pearl"
+    },
+    {
+      "item": "minecraft:totem_of_undying"
+    }
+  ],
+  "reagent": [
+    {
+      "item": "ars_nouveau:apprentice_spell_book"
+    }
+  ],
+  "sourceCost": 40000
+}

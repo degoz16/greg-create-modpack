@@ -1,0 +1,39 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": true,
+  "output": {
+    "item": "ars_nouveau:apprentice_spell_book"
+  },
+  "pedestalItems": [
+    {
+      "item": "minecraft:obsidian"
+    },
+    {
+      "item": "minecraft:blaze_rod"
+    },
+    {
+      "item": "minecraft:blaze_rod"
+    },
+    {
+      "item": "minecraft:quartz_block"
+    },
+    {
+      "item": "minecraft:quartz_block"
+    },
+    {
+      "item": "minecraft:quartz_block"
+    },
+    {
+      "item": "minecraft:quartz_block"
+    },
+    {
+      "item": "embers:inflictor_gem"
+    }
+  ],
+  "reagent": [
+    {
+      "item": "ars_nouveau:novice_spell_book"
+    }
+  ],
+  "sourceCost": 10000
+}

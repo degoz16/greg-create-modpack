@@ -1,0 +1,34 @@
+{
+  "type": "embers:alchemy",
+  "aspects": [
+    {
+      "tag": "embers:aspectus/amethyst"
+    },
+    {
+      "tag": "embers:aspectus/lead"
+    },
+    {
+      "tag": "embers:aspectus/silver"
+    }
+  ],
+  "inputs": [
+    {
+      "item": "minecraft:diamond_axe"
+    },
+    {
+      "item": "minecraft:diamond_hoe"
+    },
+    {
+      "item": "minecraft:diamond_pickaxe"
+    },
+    {
+      "item":"minecraft:diamond_shovel"
+    }
+  ],
+  "output": {
+    "item": "ars_nouveau:novice_spell_book"
+  },
+  "tablet": {
+    "item": "ars_nouveau:caster_tome"
+  }
+}

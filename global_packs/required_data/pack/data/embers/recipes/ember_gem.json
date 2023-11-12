@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "embers:isolated_materia"
+        },
+        {
+            "item": "embers:ember_grit"
+        }
+    ],
+    "result": {
+        "item": "kubejs:ember_gem",
+        "count": 4
+    }
+}

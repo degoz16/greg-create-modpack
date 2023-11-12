@@ -1,0 +1,25 @@
+{
+  "type": "embers:alchemy",
+  "aspects": [
+    {
+      "tag": "embers:aspectus/amethyst"
+    }
+  ],
+  "inputs": [
+    {
+      "item": "minecraft:lapis_lazuli"
+    },
+    {
+      "item": "minecraft:lapis_lazuli"
+    },
+    {
+      "item": "minecraft:lapis_lazuli"
+    }
+  ],
+  "output": {
+    "item": "kubejs:uncharged_source_gem"
+  },
+  "tablet": {
+    "item": "kubejs:ember_gem"
+  }
+}
