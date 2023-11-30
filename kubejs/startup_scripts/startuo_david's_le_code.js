@@ -8,5 +8,10 @@ StartupEvents.registry('item', e => {
     e.create('aspectus_amethyst')
       .texture('kubejs:item/aspectus_amethyst')
       .displayName('Amethyst aspectys')
-    
   })
+  ForgeEvents.onEvent(
+    "top.theillusivec4.curios.api.event.CurioChangeEvent",
+    (event) => {
+        global.curiosprevent(event)
+    })
+
